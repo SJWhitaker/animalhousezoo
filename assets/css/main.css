@@ -1,0 +1,162 @@
+body#home {
+
+  background: url(images/jumbotron2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Comfortaa', cursive;
+
+
+}
+body#contact {
+
+  background: url(images/jumbotron.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Comfortaa', cursive;
+  color: white;
+
+}
+
+
+
+/*animations*/
+
+.hidden
+{
+    display: none
+}
+
+/*faq*/
+
+.faqQuestions {
+	font-size: 1.5em;
+}
+
+/*siteWide*/
+
+h1 {
+		font-size: 3em;
+	
+}
+
+.container {
+	width: 80%;
+}
+
+/*pageTitle informs padding*/
+.pageTitle {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+
+
+.hero {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	color: white;
+}
+
+.iconParade {
+	color: white;
+	text-align: center;
+	width: 80%;
+}
+
+
+.navBar-bg {
+	color: white;
+	background-color: rgba(12, 76, 98, 0.7)!important;
+}
+
+.nav-link {
+	color: white!important;
+}
+
+label{
+    display:inline-block;
+    width:100%;
+}
+
+select {
+	display:inline-block;
+    width:100%;
+}
+
+.contactForm {
+	margin-top: 2%;
+}
+
+
+.contactDivide {
+	border-right: solid white 2px;
+}
+
+/*event info*/
+
+.eventInfo {
+	font-size: 1.2em;
+}
+
+.eventPrices {
+	font-size: 1.4em;
+}
+
+.smallText {
+	font-size: 0.6em;
+}
+
+.eventDescription {
+	padding-bottom: 5%;
+}
+
+td:nth-of-type(2) {
+	padding-left: 25%;
+}
+
+th:nth-of-type(2) {
+	padding-bottom: 5%;
+	padding-left: 25%;
+}
+
+#enquireButton {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+/**/
+
+.modal-body {
+	background-color: #FEC52D;
+}
+
+.modal-header, .modal-footer {
+   background-color: #44AF69
+}
+
+.eventTypeSelection {
+	margin-top: 5%;
+	padding: 2% 0;
+	margin-bottom: 5%;
+}
+
+.anGalMain {
+	color:white;
+}
+
+.backgroundOffset {
+	height: 100%;
+	color: white;
+	background-color: rgba(12, 76, 98, 0.7);
+}
+
+/*Images*/
+
+.profileImg {
+ max-height: 300px;
+}
