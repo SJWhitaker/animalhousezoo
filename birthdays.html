@@ -106,22 +106,23 @@
 
 
  <div class="container contactForm hidden" id="schoolContact">
-      <form action="/my-handling-form-page" method="post">
+      <form action="https://formspree.io/whit_91@hotmail.com"
+      method="POST">
     <div class="row">
       <div class="col-md-5 col-12 contactDivide text-center text-md-left">
         <h3 id="formBelow">Tell us a little about yourself</h3>
   <div>
     <label for="name">Name:</label>
-    <input type="text" id="name" name="user_name">
+    <input type="text" id="name" name="name">
   </div>
   <div>
     <label for="mail">E-mail:</label>
-    <input type="email" id="mail" name="user_email">
+    <input type="email" id="mail" name="email">
   </div>
 
   <div>
     <label for="telNo">Phone:</label>
-    <input type="tel" id="telNo" name="user_phone">
+    <input type="tel" id="telNo" name="phone">
   </div>
 
 
@@ -133,19 +134,19 @@
     <p>Please select all the age ranges of those who will be participating:</p>
     <div class="row">
       <div class="col-md-3 col-6">
-      <input type="checkbox" id="0-5">
+      <input type="checkbox" id="0-5" name="0-5Years">
       <label for="0-5">0 - 5 years old</label>
     </div>
     <div class="col-md-3 col-6">
-      <input type="checkbox" id="6-10">
+      <input type="checkbox" id="6-10" name="6-10Years">
       <label for="6-10">6 - 10 years old</label>
     </div>
     <div class="col-md-3 col-6">
-      <input type="checkbox" id="11-18">
+      <input type="checkbox" id="11-18" name="11-18Years">
       <label for="11-18">11 - 18 years old</label>
     </div>
     <div class="col-md-3 col-6">
-      <input type="checkbox" id="18+">
+      <input type="checkbox" id="18+" name="18+Years">
       <label for="18+">18+</label>
     </div>
   </div>
@@ -154,9 +155,9 @@
   <label for="duration">Duration of Event:</label>
   <select name="duration" id="duration">
   <option value="value0" selected>Please Choose</option>
-  <option value="value1">1 hour (12 participating)</option>
-  <option value="value2">1 hour 15 minutes (15 participating)</option>
-  <option value="value3">1 hour 30 minutes (18 participating)</option>
+  <option value="value1" name="1hour">1 hour (12 participating)</option>
+  <option value="value2" name="1hour_15min">1 hour 15 minutes (15 participating)</option>
+  <option value="value3" name="1hour_30min">1 hour 30 minutes (18 participating)</option>
 </select>
 </div>
 
@@ -168,10 +169,10 @@
   </div>
  </div>
 
-<p class="text-center">Please read our<a class="btn" data-toggle="modal" data-target="#schoolTCs">Terms and Conditions</a> before submitting your enquiry <input type="checkbox"></p>
+<p class="text-center">Please read our<a class="btn" data-toggle="modal" data-target="#schoolTCs">Terms and Conditions</a> before submitting your enquiry <input type="checkbox" name="t&cs" required></p>
 
   <div class="button text-center">
-    <button type="submit">Send your message</button>
+    <button type="submit" value="Send">Send your message</button>
   </div>
 
 </form>
