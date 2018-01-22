@@ -16,50 +16,61 @@
  
 	
 </head>
-<body id="home">
+<body>
 
   <nav class="navbar navbar-expand-lg navbar-light navBar-bg">
-    <a class="navbar-brand" href="#"><i class="fa fa-paw" aria-hidden="true"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <a class="navbar-brand" href="index.html"><img src="assets/css/images/logoTxt.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active hidden">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item hidden">
-          <a class="nav-link" href="animalGallery.html">Meet our Animals!</a>
-        </li>
-        <li class="nav-item dropdown hidden">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Enquiries
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="schools.html">Schools</a>
-            <a class="dropdown-item" href="birthdays.html">Birthday Parties</a>
-            <a class="dropdown-item" href="scouts.html">Cubs/Scouts etc.</a>
-            <a class="dropdown-item" href="corporate.html">Corporate Events</a>
-            <a class="dropdown-item" href="careHome.html">Elderly/Care Homes</a>
-            <a class="dropdown-item" href="otherbooking.html">Other</a>
-          </div>
-        </li>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item hidden">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item hidden">
+        <a class="nav-link" href="animalGallery.html">Meet our Animals!</a>
+      </li>
+      <li class="nav-item dropdown hidden">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Enquiries
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="schools.html">Schools</a>
+          <a class="dropdown-item" href="birthdays.html">Birthday Parties</a>
+          <a class="dropdown-item" href="scouts.html">Cubs/Scouts etc.</a>
+          <a class="dropdown-item" href="corporate.html">Corporate Events</a>
+          <a class="dropdown-item" href="careHome.html">Elderly/Care Homes</a>
+          <a class="dropdown-item" href="otherbooking.html">Other</a>
+        </div>
+      </li>
 
-        <li class="nav-item hidden">
-          <a class="nav-link" href="faq.html">FAQs</a>
-        </li>
-        <li class="nav-item hidden">
-          <a class="nav-link" href="booking.html">Contact</a>
-        </li>
-
+      <li class="nav-item active hidden">
+        <a class="nav-link " href="faq.html">FAQs</a>
+      </li>
+      <li class="nav-item hidden">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item hidden">
+        <a class="nav-link" href="booking.html">Contact</a>
+      </li>
       </ul>
-    </div>
-  </nav>
+      <ul class="navbar-nav ml-auto">
+      <li class="nav-item hidden socialMediaLinks">
+        <a class="nav-link SocialMediaIcon" href="https://www.facebook.com/animalhousezoo/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+        <a class="nav-link SocialMediaIcon" href="https://www.twitter.com/animalhousezoo"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        <a class="nav-link SocialMediaIcon" href="https://instagram.com/animalhousezoo"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+
+    
+  </div>
+</nav>
 
 <!--  -->
 
-<div class="container-fluid backgroundOffset">
+<div class="container-fluid ">
     <div class="container hero">
             <h1 class="pageTitle">Faqs</h1>
               <ul class="faqQuestions">
@@ -75,6 +86,8 @@
                 <li><a href="#question-6">Can the animals bite?</a></li>
                 <br>
                 <li><a href="#question-7">Might the animals wee or poop on me?</a></li>
+                <br>
+                <li><a href="#question-8">Do you provide party invitations?</a></li>
             </ul>
       </div>
         
@@ -166,10 +179,74 @@
               </div>
             </div>
         </div>
-        
+                <div class="container hero">
+            <div class="row">
+              <div class="col-lg-4">
+                <span class="anchor" id="question-8"></span>  
+                  <h3>Do you provide party invitations?</h3>
+              </div>
+              <div class="col-lg-8">
+                     <p>Yes we do!<a data-toggle="modal" data-target="#partyInvite"> Click here to choose which style you'd like.</a></p>
+              </div>
+            </div>
+        </div>
 </div>
         <!--  -->
 
+<div class="modal fade" id="partyInvite" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Party Invitations</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+             
+            
+            <div class="testimonial">
+                <!--Avatar-->
+
+                
+                <!--Content-->
+                <h4 class="mb-3">Please select the style of invitation you'd like to download</h4>
+                <div>
+                  <a href="assets/pdf/AHZ-Invite-1-A4.pdf" download>
+        <img class="img-fluid" src="assets/css/images/invitations/plainDouble.jpg">
+        <p>2 basic invitations</p>
+      </a>
+      </div>
+      <br>
+      <div>
+        <a href="assets/pdf/AHZ-Invite-2-A4.pdf" download>
+        <img class="img-fluid" src="assets/css/images/invitations/fancyDouble.jpg">
+        <p>2 colourful invitations</p>
+      </a>
+      </div>
+      <br>
+      <div>
+        <a href="assets/pdf/AHZ-Invite-1-A5.pdf" download>
+        <img class="img-fluid" src="assets/css/images/invitations/plainSingle.jpg">
+        <p>single basic invitation</p>
+      </a>
+      </div>
+      <br>
+      <div>
+        <a href="assets/pdf/AHZ-Invite-2-A5.pdf" download>
+        <img class="img-fluid" src="assets/css/images/invitations/fancySingle.jpg">
+        <p>single colourful invitation</p>
+      </a>
+      </div>
+            </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
      

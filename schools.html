@@ -16,48 +16,59 @@
   
   
 </head>
-<body id="home">
+<body>
 
   <nav class="navbar navbar-expand-lg navbar-light navBar-bg">
-    <a class="navbar-brand" href="#"><i class="fa fa-paw" aria-hidden="true"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <a class="navbar-brand" href="index.html"><img src="assets/css/images/logoTxt.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active hidden">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item hidden">
-          <a class="nav-link" href="animalGallery.html">Meet our Animals!</a>
-        </li>
-        <li class="nav-item dropdown hidden">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Enquiries
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="schools.html">Schools</a>
-            <a class="dropdown-item" href="birthdays.html">Birthday Parties</a>
-            <a class="dropdown-item" href="scouts.html">Cubs/Scouts etc.</a>
-            <a class="dropdown-item" href="corporate.html">Corporate Events</a>
-            <a class="dropdown-item" href="careHome.html">Elderly/Care Homes</a>
-            <a class="dropdown-item" href="otherbooking.html">Other</a>
-          </div>
-        </li>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item  hidden">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item hidden">
+        <a class="nav-link" href="animalGallery.html">Meet our Animals!</a>
+      </li>
+      <li class="nav-item dropdown active hidden">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Enquiries
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item active" href="schools.html">Schools</a>
+          <a class="dropdown-item" href="birthdays.html">Birthday Parties</a>
+          <a class="dropdown-item" href="scouts.html">Cubs/Scouts etc.</a>
+          <a class="dropdown-item" href="corporate.html">Corporate Events</a>
+          <a class="dropdown-item" href="careHome.html">Elderly/Care Homes</a>
+          <a class="dropdown-item" href="otherbooking.html">Other</a>
+        </div>
+      </li>
 
-        <li class="nav-item hidden">
-          <a class="nav-link" href="faq.html">FAQs</a>
-        </li>
-        <li class="nav-item hidden">
-          <a class="nav-link" href="booking.html">Contact</a>
-        </li>
-
+      <li class="nav-item hidden">
+        <a class="nav-link" href="faq.html">FAQs</a>
+      </li>
+      <li class="nav-item hidden">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item hidden">
+        <a class="nav-link" href="booking.html">Contact</a>
+      </li>
       </ul>
-    </div>
-  </nav>
+      <ul class="navbar-nav ml-auto">
+      <li class="nav-item hidden socialMediaLinks">
+        <a class="nav-link SocialMediaIcon" href="https://www.facebook.com/animalhousezoo/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+        <a class="nav-link SocialMediaIcon" href="https://www.twitter.com/animalhousezoo"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        <a class="nav-link SocialMediaIcon" href="https://instagram.com/animalhousezoo"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      </li>
+    </ul>
 
-  <div class="container-fluid backgroundOffset">
+    
+  </div>
+</nav>
+
+  <div class="container-fluid ">
 
     <div class="container">
 
@@ -72,6 +83,27 @@
 
             <p>Alternatively you can book us for an exciting treat for the children (and staff).</p>
 
+            <div class="iconParade">
+    <div class="row">
+    <div class="col-md-3 col-6">
+  <i class="fa fa-car" aria-hidden="true"></i>
+  <p class="iconsmallText">APHA Approved Animal Transport Licence</p>
+</div>
+<div class="col-md-3 col-6">
+  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+  <p class="iconsmallText">Animal & Wildlife Management BSc / Animal Health & Welfare FdSc</p>
+</div>
+<div class="col-md-3 col-6">
+  <i class="fa fa-check" aria-hidden="true"></i>
+  <p class="iconsmallText">Performing Animal License</p>
+</div>
+<div class="col-md-3 col-6">
+  <i class="fa fa-umbrella" aria-hidden="true"></i>
+  <p class="iconsmallText">Public Liability Insurance up to £5 million</p>
+</div>
+</div>
+</div>
+
             <p class="smallText">Please note - electricity will be required for the longer sessions.</p>
 
             <p class="smallText">Discounts are available for multiple bookings.</p>
@@ -80,42 +112,39 @@
           <div class="col-md-6 col-12 eventPrices text-center text-md-left">
             <h2 class="eventDescription"><strong>Rates</strong></h2>
             <table>
-              <tr class="eventTableHeader">
-                <th>Duration</th>
-                <th>Price</th>
-              </tr>
               <tr>
-                <td><em>1 hour:</em></td>
+                <td>1 hour</td>
                 <td><strong>£125</strong></td>
               </tr>
               <tr>
-                <td><em>2 hours:</em></td>
+                <td>2 hours</td>
                 <td><strong>£185</strong></td>
               </tr>
               <tr>
-                <td><em>3 hours (half day):</em></td>
+                <td>3 hours <span class="smallTagText">(half day)</span></td>
                 <td><strong>£235</strong></td>
               </tr>
               <tr>
-                <td><em>4 hours:</em></td>
+                <td>4 hours</td>
                 <td><strong>£285</strong></td>
               </tr>
               <tr>
-                <td><em>5 hours:</em></td>
+                <td>5 hours</td>
                 <td><strong>£335</strong></td>
               </tr>
               <tr>
-                <td><em>6 hours (full day):</em></td>
+                <td>6 hours <span class="smallTagText">(full day)</span></td>
                 <td><strong>£375</strong></td>
               </tr>
 
             </table>
+                 <a href="#formBelow"><button type="button" id="enquireButton" class="btn btn-primary btn-lg btn-block">Send Enquiry</button></a>
           </div>
         </div>
 
 
       </div>
-      <a href="#formBelow"><button type="button" id="enquireButton" class="btn btn-primary btn-lg btn-block">Send Enquiry</button></a>
+ 
     </div>
 
 
@@ -126,19 +155,19 @@
           <div class="col-md-5 col-12 contactDivide text-center text-md-left">
             <h3 id="formBelow">Tell us a little about yourself</h3>
              <div>
-                  <label for="msg">School Name:</label>
-                  <input type="text" id="msg" name="user_message">
+                  <label class="enquirySelectionTitle" for="msg">School Name:   <input type="text" class="inputBox" id="msg" name="user_message"></label>
+                  
               </div>
-                <label for="name">Contact Name:</label>
-                <input type="text" id="name" name="user_name">
+                <label class="enquirySelectionTitle" for="name">Name:   <input type="text" class="inputBox" id="name" name="user_name"></label>
+                
             <div>
-                <label for="mail">Contact E-mail:</label>
-                <input type="email" id="mail" name="user_email">
+                <label class="enquirySelectionTitle" for="mail">E-mail: <input type="email" class="inputBox" id="mail" name="user_email"></label>
+                
             </div>
 
             <div>
-                <label for="telNo">Contact Phone:</label>
-                <input type="tel" id="telNo" name="user_phone">
+                <label class="enquirySelectionTitle" for="telNo">Phone:   <input type="tel" class="inputBox" id="telNo" name="user_phone"></label>
+                
             </div>
 
 
@@ -147,74 +176,106 @@
         <div class="col-md-7 col-12 text-center text-md-left">
           <h3>...and a little about your event.</h3>
         
-            <p>Please select all the school years of those who will be participating:</p>
+            <p class="enquirySelectionTitle">Please select all the school years of those who will be participating:</p>
             <div class="row">
-              <div class="col-md-2 col-6">
-                <input type="checkbox" id="reception">
-                <label for="reception">Reception</label>
+              <div class="col-md-4 col-6">
+                <label class="enquirySelectionOptions" for="reception"><input type="checkbox" id="reception"> Reception</label>
               </div>
-              <div class="col-md-2 col-6">
-                <input type="checkbox" id="young">
-                <label for="young">Y1 to Y2</label>
+              <div class="col-md-4 col-6">
+                
+                <label class="enquirySelectionOptions" for="young"><input type="checkbox" id="young"> Y1 to Y2</label>
               </div>
-              <div class="col-md-2 col-6">
-                <input type="checkbox" id="year1">
-                <label for="year1">Y3 - Y6</label>
+              <div class="col-md-4 col-6">
+                
+                <label class="enquirySelectionOptions" for="year1"><input type="checkbox" id="year1"> Y3 - Y6</label>
               </div>
-              <div class="col-md-2 col-6">
-                <input type="checkbox" id="year2">
-                <label for="year2">Y7 - Y9</label>
+              <div class="col-md-4 col-6">
+                
+                <label class="enquirySelectionOptions" for="year2"><input type="checkbox" id="year2"> Y7 - Y9</label>
               </div>
-              <div class="col-md-2 col-6">
-                <input type="checkbox" id="year3">
-                <label for="year3">Y10 - Y11</label>
+              <div class="col-md-4 col-6">
+                
+                <label class="enquirySelectionOptions" for="year3"><input type="checkbox" id="year3"> Y10 - Y11</label>
               </div>
-              <div class="col-md-2 col-6">
-                <input type="checkbox" id="year4">
-                <label for="year4">Y12+</label>
+              <div class="col-md-4 col-6">
+                
+                <label class="enquirySelectionOptions" for="year4"><input type="checkbox" id="year4"> Y12+</label>
               </div>
 </div>
             
-            <div>
-              <label for="duration">Duration of Event:</label>
-              <select name="duration" id="duration">
-                <option value="value0" selected>Please Choose</option>
-                <option value="value1">1 hour</option>
-                <option value="value2">2 hours</option>
-                <option value="value3">3 hours</option>
-                <option value="value3">4 hours</option>
-                <option value="value3">5 hours</option>
-                <option value="value3">6 hours</option>
-              </select>
-            </div>
-            <div>
-              <label for="numOfChildren">How many Children per session:</label>
-              <select name="numOfChildren" id="numOfChildren">
-                <option value="0" selected>Please Choose</option>
-                <option value="1-5">1 - 5</option>
-                <option value="6-10">6 - 10</option>
-                <option value="11-15">11 - 15</option>
-                <option value="16-21">16 - 21</option>
-                <option value="22-30">22 - 30</option>
-                <option value="30+">30+</option>
-              </select>
-            </div>
+
+              <p class="enquirySelectionTitle">Duration of Event:</p>
+  <div class="row">
+    <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="1hourschool"><input type="checkbox" id="1hourschool" name="1hourschool"> 1 hour</label>
+    </div>
+        <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="2hourschool"><input type="checkbox" id="2hourschool" name="2hourschool"> 2 hours</label>
+    </div>
+        <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="3hourschool"><input type="checkbox" id="3hourschool" name="3hourschool"> 3 hours</label>
+    </div>
+          <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="4hourschool"><input type="checkbox" id="4hourschool" name="4hourschool"> 4 hour</label>
+    </div>
+        <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="5hourschool"><input type="checkbox" id="5hourschool" name="5hourschool"> 5 hours</label>
+    </div>
+        <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="6hourschool"><input type="checkbox" id="6hourschool" name="6hourschool"> 6 hours</label>
+    </div>
+   </div>
+
+   <p class="enquirySelectionTitle">How many Children per session:</p>
+      <div class="row">
+    <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="1-5session"><input type="checkbox" id="1-5session" name="1-5session"> 1 - 5</label>
+    </div>
+        <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="6-10session"><input type="checkbox" id="6-10session" name="6-10session"> 6 - 10</label>
+    </div>
+        <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="11-15session"><input type="checkbox" id="11-15session" name="11-15session"> 11 - 15</label>
+    </div>
+          <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="16-21session"><input type="checkbox" id="16-21session" name="16-21session"> 16 - 21</label>
+    </div>
+        <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="22-30session"><input type="checkbox" id="22-30session" name="22-30session"> 22 - 30</label>
+    </div>
+        <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="30+session"><input type="checkbox" id="30+session" name="30+session"> 30+</label>
+    </div>
+    </div>
+
 
 
 
               <div>
 
-              <label for="schoolDates">Date you wish to book:</label>
+              <label class="enquirySelectionTitle" for="schoolDates">Date you wish to book:</label>
               <input type="date" id="schoolDates" name="schoolDates">
             </div>
             </div>
          </div>
 
-        <p class="text-center">Please read our<a class="btn" data-toggle="modal" data-target="#schoolTCs">Terms and Conditions</a> before submitting your enquiry <input type="checkbox"></p>
+        <p class="text-center">Please read our<a class="btn tncs" data-toggle="modal" data-target="#schoolTCs">Terms and Conditions</a> before submitting your enquiry <input type="checkbox"></p>
 
 
           <div class="button text-center">
-              <button type="submit">Send your message</button>
+                  <button type="submit" value="Send" class="btn btn-success btn-lg btn-block">Send your message</button>
           </div>
       
     </form>

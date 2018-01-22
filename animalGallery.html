@@ -13,47 +13,298 @@
   <script type="text/javascript" src="assets/javascript/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="assets/javascript/bootstrap.min.js"></script>
 </head>
-<body id="home">
+<body>
 
   <nav class="navbar navbar-expand-lg navbar-light navBar-bg">
-    <a class="navbar-brand" href="#"><i class="fa fa-paw" aria-hidden="true"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <a class="navbar-brand" href="index.html"><img src="assets/css/images/logoTxt.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active hidden">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item hidden">
-          <a class="nav-link" href="animalGallery.html">Meet our Animals!</a>
-        </li>
-        <li class="nav-item dropdown hidden">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Enquiries
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="schools.html">Schools</a>
-            <a class="dropdown-item" href="birthdays.html">Birthday Parties</a>
-            <a class="dropdown-item" href="scouts.html">Cubs/Scouts etc.</a>
-            <a class="dropdown-item" href="corporate.html">Corporate Events</a>
-            <a class="dropdown-item" href="careHome.html">Elderly/Care Homes</a>
-            <a class="dropdown-item" href="otherbooking.html">Other</a>
-          </div>
-        </li>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item hidden">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active hidden">
+        <a class="nav-link" href="animalGallery.html">Meet our Animals!</a>
+      </li>
+      <li class="nav-item dropdown hidden">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Enquiries
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="schools.html">Schools</a>
+          <a class="dropdown-item" href="birthdays.html">Birthday Parties</a>
+          <a class="dropdown-item" href="scouts.html">Cubs/Scouts etc.</a>
+          <a class="dropdown-item" href="corporate.html">Corporate Events</a>
+          <a class="dropdown-item" href="careHome.html">Elderly/Care Homes</a>
+          <a class="dropdown-item" href="otherbooking.html">Other</a>
+        </div>
+      </li>
 
-        <li class="nav-item hidden">
-          <a class="nav-link" href="faq.html">FAQs</a>
-        </li>
-        <li class="nav-item hidden">
-          <a class="nav-link" href="booking.html">Contact</a>
-        </li>
-
+      <li class="nav-item hidden">
+        <a class="nav-link" href="faq.html">FAQs</a>
+      </li>
+      <li class="nav-item hidden">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item hidden">
+        <a class="nav-link" href="booking.html">Contact</a>
+      </li>
       </ul>
-    </div>
-  </nav>
+      <ul class="navbar-nav ml-auto">
+      <li class="nav-item hidden socialMediaLinks">
+        <a class="nav-link SocialMediaIcon" href="https://www.facebook.com/animalhousezoo/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+        <a class="nav-link SocialMediaIcon" href="https://www.twitter.com/animalhousezoo"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        <a class="nav-link SocialMediaIcon" href="https://instagram.com/animalhousezoo"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      </li>
+    </ul>
 
+    
+  </div>
+</nav>
+
+
+
+<div class="container-fluid ">
+
+<div class="container-fluid anGalMain">
+  <section class="section team-section text-center pb-3">
+
+    <h1 class="pageTitle">Meet the Team!</h1>
+
+          <div class="hero hidden container" id="heroTitle">
+        <p>Our aim is to provide people of all ages with fun, interesting and educational information about a wide variety of animals including mammals, reptiles, insects, birds and gastropods. We accommodate for schools, parties, care homes, fun days and many more.</p>
+       
+      </div>
+
+    <!--Grid row-->
+    <div class="row text-center">
+
+        <!--Grid column-->
+        <div class="col-md-4 col-sm-6 mb-r">
+            
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#brianAfricanLandSnail"><img src="assets/css/images/brian/profileBrian.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+                
+                <!--Content-->
+                <h4 class="mb-3">Giant African Land Snail</h4>
+                <h6 class="mb-3 font-bold grey-text">Brian</h6>
+
+            </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#spearLesserTenrec"><img src="assets/css/images/spear/spearProfile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+
+                <!--Content-->
+                <h4 class="mb-3">Lesser Tenrec</h4>
+                <h6 class="mb-3 font-bold grey-text">Spear</h6>
+
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#guineaPigs"><img src="assets/css/images/guineapigs/latteMochaProfile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+                <!--Content-->
+                <h4 class="mb-3">Guinea pigs</h4>
+                <h6 class="mb-3 font-bold grey-text">Latte and Mocha</h6>
+
+            </div>
+        </div>
+
+        <!--Grid column-->
+        <div class="col-md-4 col-sm-6 mb-r">
+            
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#skinnypigs"><img src="assets/css/images/skinnypigs/skinnypigProfile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+                
+                <!--Content-->
+                <h4 class="mb-3">Skinny Pig and Werewolf Skinny Pig</h4>
+                <h6 class="mb-3 font-bold grey-text">Pumpking & Winnie</h6>
+
+            </div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#stickInsect"><img src="assets/css/images/woody/woodyProfile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+
+                <!--Content-->
+                <h4 class="mb-3">Indian Stick Insects</h4>
+                <h6 class="mb-3 font-bold grey-text">Woody and Allen</h6>
+
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#barnOwl"><img src="assets/css/images/alto/altoProfile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+                <!--Content-->
+                <h4 class="mb-3">Barn Owl</h4>
+                <h6 class="mb-3 font-bold grey-text">Alto</h6>
+
+            </div>
+        </div>
+                <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#duprasi"><img src="assets/css/images/duprasi/profileDuprasi.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+
+                <!--Content-->
+                <h4 class="mb-3">Duprasi</h4>
+                <h6 class="mb-3 font-bold grey-text">Dennis</h6>
+
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#beardedDragon"><img src="assets/css/images/tango/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+                <!--Content-->
+                <h4 class="mb-3">Bearded Dragon</h4>
+                <h6 class="mb-3 font-bold grey-text">Tango</h6>
+
+            </div>
+        </div>
+                <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#cornSnake"><img src="assets/css/images/popcorn/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+
+                <!--Content-->
+                <h4 class="mb-3">Corn Snake</h4>
+                <h6 class="mb-3 font-bold grey-text">Popcorn</h6>
+
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#fireflyBallPython"><img src="assets/css/images/sydney/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+                <!--Content-->
+                <h4 class="mb-3">Firefly Ball Python</h4>
+                <h6 class="mb-3 font-bold grey-text">Sydney</h6>
+
+            </div>
+        </div>
+                        <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#butterBallPython"><img src="assets/css/images/butter/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+
+                <!--Content-->
+                <h4 class="mb-3">Butter Ball Python</h4>
+                <h6 class="mb-3 font-bold grey-text">Butter</h6>
+
+            </div>
+        </div>
+                <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#pinstripeBallPython"><img src="assets/css/images/pinstripe/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+
+                <!--Content-->
+                <h4 class="mb-3">Pinstripe Ball Python</h4>
+                <h6 class="mb-3 font-bold grey-text">Pinny</h6>
+
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#leopardGecko"><img src="assets/css/images/peeka/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+                <!--Content-->
+                <h4 class="mb-3">Leopard Gecko</h4>
+                <h6 class="mb-3 font-bold grey-text">Peeka</h6>
+
+            </div>
+        </div>
+
+                <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#madagascarHissingCockroaches"><img src="assets/css/images/ant_dec/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+
+                <!--Content-->
+                <h4 class="mb-3">Madagascar Hissing Cockroaches</h4>
+                <h6 class="mb-3 font-bold grey-text">Ant and Dec</h6>
+
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 mb-r">
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <a class="btn" data-toggle="modal" data-target="#africanGiantTrainMillipedes"><img src="assets/css/images/PD/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg hoverGrow"></a>
+                </div>
+                <!--Content-->
+                <h4 class="mb-3">African Giant Train Millipedes</h4>
+                <h6 class="mb-3 font-bold grey-text">PD & Socks</h6>
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+</div>
+
+  <div class="hero hidden" id="heroTitle">
+
+    <a class="btn btn-primary btn-lg" href="about.html" role="button">Learn more about us</a>
+    <a class="btn btn-success btn-lg" href="booking.html" role="button">Enquire</a>
+  </div>
+
+
+</div>
+
+<!-- modal profiles begin -->
 
 <div class="modal fade" id="brianAfricanLandSnail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -76,10 +327,10 @@
                 <!--Content-->
                 <h4 class="mb-3">Brian</h4>
                 <h6 class="mb-3 font-bold grey-text">Giant African Land Snail</h6>
-                <h6 class="mb-3 font-bold grey-text">Species: <em>Achatina fulica</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Achatina fulica</em></h6>
                 <h6 class="mb-3 font-bold grey-text">Class: Gastropod</h6>
-                <h6 class="mb-3 font-bold grey-text">Favourite food: Cucumber</h6>
-                <p><i class="fa fa-quote-left"></i> Fun fact: Giant African Land Snails, like all snails, are hermaphrodites. This means that they have both female and male sex organs, so it doesn’t matter which two snails you put together they will be able to produce eggs.</p>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Cucumber</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: Giant African Land Snails, like all snails, are hermaphrodites. This means that they have both female and male sex organs, so it doesn’t matter which two snails you put together they will be able to produce eggs.</p>
 
             </div>
     
@@ -112,10 +363,10 @@
                 <!--Content-->
                 <h4 class="mb-3">Spear</h4>
                 <h6 class="mb-3 font-bold grey-text">Lesser Tenrec</h6>
-                <h6 class="mb-3 font-bold grey-text">Species: <em>Echinops telfairi</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Echinops telfairi</em></h6>
                 <h6 class="mb-3 font-bold grey-text">Class: Mammal</h6>
-                <h6 class="mb-3 font-bold grey-text">Favourite food: Meal worms</h6>
-                <p><i class="fa fa-quote-left"></i> Fun fact: There are nearly 30 different species of Tenrec, some of which have adapted to life in the trees. Other species have adapted to life on the ground, whilst others even live in water.</p>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Meal worms</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: There are nearly 30 different species of Tenrec, some of which have adapted to life in the trees. Other species have adapted to life on the ground, whilst others even live in water.</p>
 
             </div>
     
@@ -148,10 +399,10 @@
                 <!--Content-->
                 <h4 class="mb-3">Latte and Mocha </h4>
                 <h6 class="mb-3 font-bold grey-text">Guinea Pigs</h6>
-                <h6 class="mb-3 font-bold grey-text">Species: <em>Cavia porcellus</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Cavia porcellus</em></h6>
                 <h6 class="mb-3 font-bold grey-text">Class: Mammals</h6>
-                <h6 class="mb-3 font-bold grey-text">Favourite food: Romaine lettuce and hay</h6>
-                <p><i class="fa fa-quote-left"></i> Fun fact: Unlike humans Guinea Pigs cannot sweat, this means that they are at risk of heat stroke if they are left out in the sun or become too hot. They do love to sit in the shade whenever possible.</p>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Romaine lettuce and hay</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: Unlike humans Guinea Pigs cannot sweat, this means that they are at risk of heat stroke if they are left out in the sun or become too hot. They do love to sit in the shade whenever possible.</p>
 
             </div>
     
@@ -185,10 +436,10 @@
                 <!--Content-->
                 <h4 class="mb-3">Pumpkin & Winnie</h4>
                 <h6 class="mb-3 font-bold grey-text">Skinny Pig and Werewolf Skinny Pig</h6>
-                <h6 class="mb-3 font-bold grey-text">Species: <em>Cavia porcellus</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Cavia porcellus</em></h6>
                 <h6 class="mb-3 font-bold grey-text">Class: Mammals</h6>
-                <h6 class="mb-3 font-bold grey-text">Favourite food: Corn on the cob and hay</h6>
-                <p><i class="fa fa-quote-left"></i> Fun fact: These hairless Guinea Pigs are the result of a laboratory experiment and were first created during 1978 in Canada.</p>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Corn on the cob and hay</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: These hairless Guinea Pigs are the result of a laboratory experiment and were first created during 1978 in Canada.</p>
 
             </div>
     
@@ -221,10 +472,10 @@
                 <!--Content-->
                 <h4 class="mb-3">Woody & Allen</h4>
                 <h6 class="mb-3 font-bold grey-text">Indian Stick Insects</h6>
-                <h6 class="mb-3 font-bold grey-text">Species: <em>Carausius morosus</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Carausius morosus</em></h6>
                 <h6 class="mb-3 font-bold grey-text">Class: Insects</h6>
-                <h6 class="mb-3 font-bold grey-text">Favourite food: Privet</h6>
-                <p><i class="fa fa-quote-left"></i> Fun fact: Once a nymph (immature insect) has moulted (shed its skin) it will usually eat its shrivelled exoskeleton. One reason they do this is to recycle the protein instead of letting it go to waste.</p>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Privet</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: Once a nymph (immature insect) has moulted (shed its skin) it will usually eat its shrivelled exoskeleton. One reason they do this is to recycle the protein instead of letting it go to waste.</p>
 
             </div>
     
@@ -257,10 +508,10 @@
                 <!--Content-->
                 <h4 class="mb-3">Alto</h4>
                 <h6 class="mb-3 font-bold grey-text">Barn Owl</h6>
-                <h6 class="mb-3 font-bold grey-text">Species: <em>Tyto alba alba</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Tyto alba alba</em></h6>
                 <h6 class="mb-3 font-bold grey-text">Class: Bird</h6>
-                <h6 class="mb-3 font-bold grey-text">Favourite food: Small rats</h6>
-                <p><i class="fa fa-quote-left"></i> Fun fact: Barn owls have lop sided ears, one ear being lower than the other. This is so that they can pinpoint their prey exactly even if they maybe cannot see it because of long grass or similar.</p>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Small rats</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: Barn owls have lop sided ears, one ear being lower than the other. This is so that they can pinpoint their prey exactly even if they maybe cannot see it because of long grass or similar.</p>
 
             </div>
     
@@ -272,120 +523,332 @@
   </div>
 </div>
 
-<div class="container-fluid backgroundOffset">
-
-<div class="container-fluid anGalMain">
-  <section class="section team-section text-center pb-3">
-
-    <h1 class="pageTitle">Meet the Team!</h1>
-
-          <div class="hero hidden container" id="heroTitle">
-        <p>Our aim is to provide people of all ages with fun, interesting and educational information about a wide variety of animals including mammals, reptiles, insects, birds and gastropods. We accommodate for schools, parties, care homes, fun days and many more.</p>
-       
+<div class="modal fade" id="duprasi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Animal Profiles</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-
-    <!--Grid row-->
-    <div class="row text-center">
-
-        <!--Grid column-->
-        <div class="col-md-4 mb-r">
+      <div class="modal-body text-center">
+             
             
             <div class="testimonial">
                 <!--Avatar-->
                 <div class="avatar">
-                    <a class="btn" data-toggle="modal" data-target="#brianAfricanLandSnail"><img src="assets/css/images/brian/profileBrian.jpg" class="rounded-circle z-depth-1 img-fluid profileImg"></a>
+                    <img src="assets/css/images/duprasi/profileDuprasi.jpg" class="rounded-circle z-depth-1 img-fluid profileImg">
                 </div>
                 
                 <!--Content-->
-                <h4 class="mb-3">Giant African Land Snail</h4>
-                <h6 class="mb-3 font-bold grey-text">Brian</h6>
+                <h4 class="mb-3">Dennis</h4>
+                <h6 class="mb-3 font-bold grey-text">Duprasi</h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Pachyuromys dupras</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Class: Mammal</h6>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Kale and Mealworms</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: They like to sleep on their backs with their tiny feet pointing upwards.</p>
 
             </div>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-md-4 mb-r">
-            <div class="testimonial">
-                <!--Avatar-->
-                <div class="avatar">
-                    <a class="btn" data-toggle="modal" data-target="#spearLesserTenrec"><img src="assets/css/images/spear/spearProfile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg"></a>
-                </div>
-
-                <!--Content-->
-                <h4 class="mb-3">Lesser Tenrec</h4>
-                <h6 class="mb-3 font-bold grey-text">Spear</h6>
-
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-r">
-            <div class="testimonial">
-                <!--Avatar-->
-                <div class="avatar">
-                    <a class="btn" data-toggle="modal" data-target="#guineaPigs"><img src="assets/css/images/guineapigs/latteMochaProfile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg"></a>
-                </div>
-                <!--Content-->
-                <h4 class="mb-3">Guinea pigs</h4>
-                <h6 class="mb-3 font-bold grey-text">Latte and Mocha</h6>
-
-            </div>
-        </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
     </div>
+  </div>
+</div>
 
-<div class="row text-center">
-
-        <!--Grid column-->
-        <div class="col-md-4 mb-r">
+<div class="modal fade" id="beardedDragon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Animal Profiles</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+             
             
             <div class="testimonial">
                 <!--Avatar-->
                 <div class="avatar">
-                    <a class="btn" data-toggle="modal" data-target="#skinnypigs"><img src="assets/css/images/skinnypigs/skinnypigProfile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg"></a>
+                    <img src="assets/css/images/tango/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg">
                 </div>
                 
                 <!--Content-->
-                <h4 class="mb-3">Skinny Pig and Werewolf Skinny Pig</h4>
-                <h6 class="mb-3 font-bold grey-text">Pumpking & Winnie</h6>
+                <h4 class="mb-3">Tango</h4>
+                <h6 class="mb-3 font-bold grey-text">Bearded Dragon</h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Pogona vitticeps</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Class: Reptile</h6>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Locusts</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: Bearded dragons have a variety of behaviours and displays; one of the popular ones is puffing their throat out. If they puff it out and it goes black this means they are angry, but if it doesn’t change colour they are most likely just yawning or stretching.</p>
 
             </div>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-md-4 mb-r">
-            <div class="testimonial">
-                <!--Avatar-->
-                <div class="avatar">
-                    <a class="btn" data-toggle="modal" data-target="#stickInsect"><img src="assets/css/images/woody/woodyProfile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg"></a>
-                </div>
-
-                <!--Content-->
-                <h4 class="mb-3">Indian Stick Insects</h4>
-                <h6 class="mb-3 font-bold grey-text">Woody and Allen</h6>
-
-            </div>
-        </div>
-
-        <div class="col-md-4 mb-r">
-            <div class="testimonial">
-                <!--Avatar-->
-                <div class="avatar">
-                    <a class="btn" data-toggle="modal" data-target="#barnOwl"><img src="assets/css/images/alto/altoProfile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg"></a>
-                </div>
-                <!--Content-->
-                <h4 class="mb-3">Barn Owl</h4>
-                <h6 class="mb-3 font-bold grey-text">Alto</h6>
-
-            </div>
-        </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
     </div>
-
-</section>
-
+  </div>
 </div>
 
+<div class="modal fade" id="cornSnake" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Animal Profiles</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+             
+            
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <img src="assets/css/images/popcorn/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg">
+                </div>
+                
+                <!--Content-->
+                <h4 class="mb-3">Popcorn</h4>
+                <h6 class="mb-3 font-bold grey-text">Corn Snake</h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Pantherophis guttatus</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Class: Reptile</h6>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Mice</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: These snakes got the ‘Corn’ Snakes for 2 different reasons, 1) they are often found in cornfields hunting for rodents, and 2) the scales on their belly looks like the kernels of Indian corn.</p>
+
+            </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="modal fade" id="fireflyBallPython" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Animal Profiles</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+             
+            
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <img src="assets/css/images/sydney/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg">
+                </div>
+                
+                <!--Content-->
+                <h4 class="mb-3">Sydney</h4>
+                <h6 class="mb-3 font-bold grey-text">Firefly Ball Python</h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Python regius</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Class: Reptile</h6>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Mice</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: No two ball pythons are the same; they all have their own unique patterns.</p>
+
+            </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="butterBallPython" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Animal Profiles</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+             
+            
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <img src="assets/css/images/butter/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg">
+                </div>
+                
+                <!--Content-->
+                <h4 class="mb-3">Butter</h4>
+                <h6 class="mb-3 font-bold grey-text">Butter Ball Python</h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Python regius</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Class: Reptile</h6>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Mice</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: Ball Pythons get their name because when they feel threatened they tend to curl up into a ball. Some people call them Royal Pythons because ancient royalty wore them as jewelry.</p>
+
+            </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="pinstripeBallPython" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Animal Profiles</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+             
+            
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <img src="assets/css/images/pinstripe/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg">
+                </div>
+                
+                <!--Content-->
+                <h4 class="mb-3">Pinny</h4>
+                <h6 class="mb-3 font-bold grey-text">Pinstripe Ball Python</h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Python regius</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Class: Reptile</h6>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Mice</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: Ball Pythons are one of the most popular pet snake, this is because they are much smaller than other python species only growing to an average of 3 – 5 feet long. Also with good socialization they can be very docile snakes.</p>
+
+            </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="leopardGecko" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Animal Profiles</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+             
+            
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <img src="assets/css/images/peeka/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg">
+                </div>
+                
+                <!--Content-->
+                <h4 class="mb-3">Peeka</h4>
+                <h6 class="mb-3 font-bold grey-text">Leopard Gecko</h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Eublepharis macularius</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Class: Reptile</h6>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Crickets</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: They have a long tongue that they use to clean their eyes.</p>
+
+            </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="madagascarHissingCockroaches" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Animal Profiles</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+             
+            
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <img src="assets/css/images/ant_dec/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg">
+                </div>
+                
+                <!--Content-->
+                <h4 class="mb-3">Ant and Dec</h4>
+                <h6 class="mb-3 font-bold grey-text">Madagascar Hissing Cockroaches</h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Gromphadorhina portentosa</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Class: Insects</h6>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Apple</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: Most animals that hiss make the noise by rubbing their body parts together, however, these cockroaches make the hissing noise by exhaling air quickly through their breathing holes.</p>
+
+            </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="africanGiantTrainMillipedes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Animal Profiles</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+             
+            
+            <div class="testimonial">
+                <!--Avatar-->
+                <div class="avatar">
+                    <img src="assets/css/images/PD/profile.jpg" class="rounded-circle z-depth-1 img-fluid profileImg">
+                </div>
+                
+                <!--Content-->
+                <h4 class="mb-3">PD and Socks</h4>
+                <h6 class="mb-3 font-bold grey-text">African Giant Train Millipedes</h6>
+                <h6 class="mb-3 font-bold grey-text">Scientific Name: <em>Archispirostreptus gigas</em></h6>
+                <h6 class="mb-3 font-bold grey-text">Class: Diplopod</h6>
+                <h6 class="mb-3 font-bold grey-text">Favourite Food: Cucumber</h6>
+                <p><i class="fa fa-quote-left"></i> Fun Fact: To tell the difference between male and females you have to look at the legs on the 7th body segment. Males have specialized legs with grasping claws called gonopods that are often tucked up under the body.</p>
+
+            </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal profile end -->
+
 <script type="text/javascript" src="assets/javascript/scripts.js"></script>
 </body>
 </html>

@@ -1,17 +1,6 @@
-body#home {
-
-  background: url(images/jumbotron2.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  font-family: 'Comfortaa', cursive;
-
-
-}
-body#contact {
-
-  background: url(images/jumbotron.jpg) no-repeat center center fixed;
+body {
+		
+  background: linear-gradient(rgba(12, 76, 98, 0.7), rgba(12, 76, 98, 0.7)), url(images/jumbotron2.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,7 +10,61 @@ body#contact {
 
 }
 
+ul {
+	list-style: none;
+	padding: 4%;
+}
 
+.inputBox {
+	margin: 8px;
+}
+
+.tncNumStyle {
+	font-weight: 700;
+	color: green;
+}
+
+.multiTncIndent {
+	margin-left: 16px;
+}
+
+.tncContentIndent {
+	margin-left: 16px;
+}
+
+.tncNumberBigBox {
+	display: flex;
+}
+
+.tncTextSpace {
+	margin-left: 5px;
+}
+
+
+.active {
+	background-color: #FEC52D!important;
+}
+
+#partyInviteStyle {
+	background-color: #5cb85c;
+}
+
+.enquirySelectionTitle {
+	background-color:#FEC52D;
+	border-radius: 10px;
+	text-align: center;
+	color:black;
+}
+
+input {
+	border-radius: 10px;
+}
+
+.enquirySelectionOptions {
+	background-color:#5cb85c;
+	border-radius: 10px;
+	text-align: center;
+}
 
 /*animations*/
 
@@ -34,6 +77,29 @@ body#contact {
 
 .faqQuestions {
 	font-size: 1.5em;
+	background-color: rgba(254,197,45, 0.4);
+}
+
+.faqQuestions a {
+	color: white;
+}
+
+.eventTypeSelection a {
+	color: #FEC52D;
+}
+
+.smallTagText {
+	font-size: 0.5em;
+}
+
+.tncs {
+	text-decoration: underline!important;
+	font-size: 1.1em;
+}
+
+.tncs:hover {
+  color: #FEC52D!important;
+  transform: scale(1.1);
 }
 
 /*siteWide*/
@@ -53,7 +119,9 @@ h1 {
 	padding-bottom: 5%;
 }
 
-
+.socialMediaLinks {
+	display: inline-flex;
+}
 
 .hero {
 	padding-top: 2%;
@@ -62,16 +130,8 @@ h1 {
 	color: white;
 }
 
-.iconParade {
-	color: white;
-	text-align: center;
-	width: 80%;
-}
-
-
 .navBar-bg {
 	color: white;
-	background-color: rgba(12, 76, 98, 0.7)!important;
 }
 
 .nav-link {
@@ -88,14 +148,21 @@ select {
     width:100%;
 }
 
+
+.SocialMediaIcon {
+	padding-right: 10px!important;
+}
+
 .contactForm {
 	margin-top: 2%;
 }
 
-
+@media screen and (min-width: 768px) {
 .contactDivide {
 	border-right: solid white 2px;
+  }
 }
+
 
 /*event info*/
 
@@ -111,8 +178,12 @@ select {
 	font-size: 0.6em;
 }
 
+.iconsmallText {
+	font-size: 0.3em;
+}
+
 .eventDescription {
-	padding-bottom: 5%;
+	padding-bottom: 10%;
 }
 
 td:nth-of-type(2) {
@@ -126,10 +197,32 @@ th:nth-of-type(2) {
 
 #enquireButton {
 	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-bottom: 9%;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: white;
+}
+
+#slightTopMargin {
+	margin-top: 3%;
+}
+
+.navbar-toggler {
+	border: 5px solid transparent;
 }
 
 /**/
+
+.modal-footer {
+	display: inline!important;
+}
+
+.hoverGrow:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
 
 .modal-body {
 	background-color: #FEC52D;
@@ -145,18 +238,38 @@ th:nth-of-type(2) {
 	margin-bottom: 5%;
 }
 
+.btn-primary {
+	background-color: #FEC52D;
+}
+
 .anGalMain {
 	color:white;
 }
 
-.backgroundOffset {
-	height: 100%;
-	color: white;
-	background-color: rgba(12, 76, 98, 0.7);
+/*@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) { 
+  .homePageContent {
+  	margin-top: 50px;
+  }
 }
 
-/*Images*/
-
-.profileImg {
- max-height: 300px;
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 640px) { 
+  .homePageContent {
+  	font-size: 0.2em;
+  }
 }
+
+@media only screen 
+and (min-device-width : 640px) 
+and (max-device-width : 640px) { 
+  .homePageContent {
+  	font-size: 0.2em;
+  }
+}*/
+
+
+
+

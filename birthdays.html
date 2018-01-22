@@ -16,29 +16,29 @@
  
 	
 </head>
-<body id="home">
+<body>
 
   <nav class="navbar navbar-expand-lg navbar-light navBar-bg">
-  <a class="navbar-brand" href="#"><i class="fa fa-paw" aria-hidden="true"></i></a>
+  <a class="navbar-brand" href="index.html"><img src="assets/css/images/logoTxt.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active hidden">
+      <li class="nav-item hidden">
         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item hidden">
         <a class="nav-link" href="animalGallery.html">Meet our Animals!</a>
       </li>
-      <li class="nav-item dropdown hidden">
+      <li class="nav-item active dropdown hidden">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Enquiries
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="schools.html">Schools</a>
-          <a class="dropdown-item" href="birthdays.html">Birthday Parties</a>
+          <a class="dropdown-item active" href="birthdays.html">Birthday Parties</a>
           <a class="dropdown-item" href="scouts.html">Cubs/Scouts etc.</a>
           <a class="dropdown-item" href="corporate.html">Corporate Events</a>
           <a class="dropdown-item" href="careHome.html">Elderly/Care Homes</a>
@@ -50,16 +50,27 @@
         <a class="nav-link" href="faq.html">FAQs</a>
       </li>
       <li class="nav-item hidden">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item hidden">
         <a class="nav-link" href="booking.html">Contact</a>
       </li>
-
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      <li class="nav-item hidden socialMediaLinks">
+        <a class="nav-link SocialMediaIcon" href="https://www.facebook.com/animalhousezoo/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+        <a class="nav-link SocialMediaIcon" href="https://www.twitter.com/animalhousezoo"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        <a class="nav-link SocialMediaIcon" href="https://instagram.com/animalhousezoo"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+      </li>
     </ul>
+
+    
   </div>
 </nav>
 
 
 
-<div class="container-fluid backgroundOffset">
+<div class="container-fluid ">
 
   <div class="container">
 
@@ -70,37 +81,60 @@
   <div class="row">
     <div class="col-md-6 col-12 eventInfo text-center text-md-left">
       <h2 class="eventDescription"><strong>Description</strong></h2>
-      <p>We provide a fun and educational Birthday party for children and adults. During the party each animal in turn will be exhibited by one of our professional handlers at which point they will also give a little speech with details about the animal. Then the partygoers will have the opportunity to hold or pet each animal. For safety reasons some animals cannot be held by the public but can still be petted.</p>
+      <p>We provide a fun and educational Birthday party for children and adults. During the party each animal in turn will be exhibited by one of our professional handlers at which point they will also give a little speech with details about the animal. Then the partygoers will have the opportunity to hold or pet each animal.</p>
+      <a data-toggle="modal" data-target="#partyInvite"><p id="partyInviteStyle">Click here to choose from downloaded party invitation styles</p>
+      <p><span class="smallTagText">For safety reasons some animals cannot be held by the public but can still be petted.</span></p></a>
+
+      <div class="iconParade">
+    <div class="row">
+    <div class="col-md-3 col-6">
+  <i class="fa fa-car" aria-hidden="true"></i>
+  <p class="iconsmallText">APHA Approved Animal Transport Licence</p>
+</div>
+<div class="col-md-3 col-6">
+  <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+  <p class="iconsmallText">Animal & Wildlife Management BSc / Animal Health & Welfare FdSc</p>
+</div>
+<div class="col-md-3 col-6">
+  <i class="fa fa-check" aria-hidden="true"></i>
+  <p class="iconsmallText">Performing Animal License</p>
+</div>
+<div class="col-md-3 col-6">
+  <i class="fa fa-umbrella" aria-hidden="true"></i>
+  <p class="iconsmallText">Public Liability Insurance up to £5 million</p>
+</div>
+</div>
+</div>
 
       <p class="smallText">If you have a larger party in mind please contact us so that we can discuss your requirements and provide an accurate quote.</p>
+
+
 
     </div>
     <div class="col-md-6 col-12 eventPrices text-center text-md-left">
       <h2 class="eventDescription"><strong>Rates</strong></h2>
   <table>
-    <tr class="eventTableHeader">
-      <th>Duration</th>
-      <th>Price</th>
-    </tr>
     <tr>
-      <td><em>1 hour party with a maximum of 12 people handling the Animals:</em></td>
+      <td>1 hour <span class="smallTagText">(max <strong>12</strong> people handling the Animals)</span></td>
       <td><strong>£115</strong></td>
     </tr>
     <tr>
-      <td><em>1 hour 15 minutes party with a maximum of 15 people handling the Animals:</em></td>
+      <td>1 hour 15 minutes <span class="smallTagText">(max <strong>15</strong> people handling the Animals)</span></td>
       <td><strong>£140</strong></td>
     </tr>
     <tr>
-      <td><em>1 hour 30 minutes party with a maximum of 18 people handling the Animals:</em></td>
+      <td>1 hour 30 minutes <span class="smallTagText">(max <strong>18</strong> people handling the Animals)</span></td>
       <td><strong>£165</strong></td>
     </tr>
   </table>
+  <a href="#formBelow"><button type="button" id="enquireButton" class="btn btn-primary btn-lg btn-block">Send Enquiry</button></a>
     </div>
   </div>
 
 
+
 </div>
-<a href="#formBelow"><button type="button" id="enquireButton" class="btn btn-primary btn-lg btn-block">Send Enquiry</button></a>
+
 </div>
 
 
@@ -112,17 +146,17 @@
       <div class="col-md-5 col-12 contactDivide text-center text-md-left">
         <h3 id="formBelow">Tell us a little about yourself</h3>
   <div>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name">
+    <label class="enquirySelectionTitle" for="name">Name: <input type="text" class="inputBox" id="name" name="name"></label>
+    
   </div>
   <div>
-    <label for="mail">E-mail:</label>
-    <input type="email" id="mail" name="email">
+    <label class="enquirySelectionTitle" for="mail">E-mail:  <input type="email" class="inputBox" id="mail" name="email"></label>
+   
   </div>
 
   <div>
-    <label for="telNo">Phone:</label>
-    <input type="tel" id="telNo" name="phone">
+    <label class="enquirySelectionTitle" for="telNo">Phone: <input type="tel" class="inputBox" id="telNo" name="phone"></label>
+    
   </div>
 
 
@@ -131,53 +165,59 @@
   <div class="col-md-7 col-12 text-center text-md-left">
     <h3>...and a little about your event.</h3>
 
-    <p>Please select all the age ranges of those who will be participating:</p>
+    <p class="enquirySelectionTitle">Please select all the age ranges of those who will be participating:</p>
     <div class="row">
       <div class="col-md-3 col-6">
-      <input type="checkbox" id="0-5" name="0-5Years">
-      <label for="0-5">0 - 5 years old</label>
+      
+      <label class="enquirySelectionOptions" for="0-5"><input type="checkbox" id="0-5" name="0-5Years"> 0 - 5 years old</label>
     </div>
     <div class="col-md-3 col-6">
-      <input type="checkbox" id="6-10" name="6-10Years">
-      <label for="6-10">6 - 10 years old</label>
+      
+      <label class="enquirySelectionOptions" for="6-10"><input type="checkbox" id="6-10" name="6-10Years"> 6 - 10 years old</label>
     </div>
     <div class="col-md-3 col-6">
-      <input type="checkbox" id="11-18" name="11-18Years">
-      <label for="11-18">11 - 18 years old</label>
+      
+      <label class="enquirySelectionOptions" for="11-18"><input type="checkbox" id="11-18" name="11-18Years"> 11 - 18 years old</label>
     </div>
     <div class="col-md-3 col-6">
-      <input type="checkbox" id="18+" name="18+Years">
-      <label for="18+">18+</label>
+      
+      <label class="enquirySelectionOptions" for="18+"><input type="checkbox" id="18+" name="18+Years"> 18+</label>
     </div>
   </div>
  
-<div>
-  <label for="duration">Duration of Event:</label>
-  <select name="duration" id="duration">
-  <option value="value0" selected>Please Choose</option>
-  <option value="value1" name="1hour">1 hour (12 participating)</option>
-  <option value="value2" name="1hour_15min">1 hour 15 minutes (15 participating)</option>
-  <option value="value3" name="1hour_30min">1 hour 30 minutes (18 participating)</option>
-</select>
-</div>
 
+  <p class="enquirySelectionTitle">Duration of Event:</p>
+  <div class="row">
+    <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="1hourbday"><input type="checkbox" id="1hourbday" name="1hourbday"> 1 hour <span class="smallTagText">(12 participating)</span></label>
+    </div>
+        <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="115hourbday"><input type="checkbox" id="115hourbday" name="115hourbday"> 1 hour 15 minutes <span class="smallTagText">(15 participating)</span></label>
+    </div>
+        <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="130hourbday"><input type="checkbox" id="130hourbday" name="130hourbday"> 1 hour 30 minutes <span class="smallTagText">(18 participating)</span></label>
+    </div>
+  </div>
   <div>
 
-    <label for="schoolDates">Date you wish to book:</label>
+    <label class="enquirySelectionTitle" for="schoolDates">Date you wish to book:</label>
     <input type="date" id="schoolDates" name="schoolDates">
   </div>
   </div>
  </div>
 
-<p class="text-center">Please read our<a class="btn" data-toggle="modal" data-target="#schoolTCs">Terms and Conditions</a> before submitting your enquiry <input type="checkbox" name="t&cs" required></p>
+<p class="text-center">Please read our<a class="btn tncs" data-toggle="modal" data-target="#schoolTCs">Terms and Conditions</a> before submitting your enquiry <input type="checkbox" name="t&cs" required></p>
 
   <div class="button text-center">
-    <button type="submit" value="Send">Send your message</button>
+    <button type="submit" value="Send" class="btn btn-success btn-lg btn-block">Send your message</button>
   </div>
 
-</form>
+ </form>
   </div>
-</div>
+ 
 
 
 <div class="modal fade" id="schoolTCs" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -226,6 +266,61 @@
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
+            </div>
+    
+      </div>
+      <div class="modal-footer text-center">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="partyInvite" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Party Invitations</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+             
+            
+            <div class="testimonial">
+                <!--Avatar-->
+
+                
+                <!--Content-->
+                <h4 class="mb-3">Please select the style of invitation you'd like to download</h4>
+                <div>
+                  <a href="assets/pdf/AHZ-Invite-1-A4.pdf" download>
+        <img class="img-fluid" src="assets/css/images/invitations/plainDouble.jpg">
+        <p>2 basic invitations</p>
+      </a>
+      </div>
+      <br>
+      <div>
+        <a href="assets/pdf/AHZ-Invite-2-A4.pdf" download>
+        <img class="img-fluid" src="assets/css/images/invitations/fancyDouble.jpg">
+        <p>2 colourful invitations</p>
+      </a>
+      </div>
+      <br>
+      <div>
+        <a href="assets/pdf/AHZ-Invite-1-A5.pdf" download>
+        <img class="img-fluid" src="assets/css/images/invitations/plainSingle.jpg">
+        <p>single basic invitation</p>
+      </a>
+      </div>
+      <br>
+      <div>
+        <a href="assets/pdf/AHZ-Invite-2-A5.pdf" download>
+        <img class="img-fluid" src="assets/css/images/invitations/fancySingle.jpg">
+        <p>single colourful invitation</p>
+      </a>
+      </div>
             </div>
     
       </div>
