@@ -73,6 +73,10 @@ input {
     display: none
 }
 
+.clickable {
+    cursor: pointer;
+}
+
 /*faq*/
 
 .faqQuestions {
