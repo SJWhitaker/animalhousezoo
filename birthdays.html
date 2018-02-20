@@ -84,25 +84,33 @@
       <h2 class="eventDescription"><strong>Description</strong></h2>
       <p>We provide a fun and educational Birthday party for children and adults. During the party each animal in turn will be exhibited by one of our professional handlers at which point they will also give a little speech with details about the animal. Then the partygoers will have the opportunity to hold or pet each animal.</p>
         <button type="button" id="partyInviteStyle" class="btn btn-success btn-lg clickable"><a data-toggle="modal" data-target="#partyInvite">Click here to choose from downloadable<br>party invitation styles</a></button>
-      <p><span class="smallTagText">For safety reasons some animals cannot be held by the public but can still be petted.</span></p>
+      <p class="lineHeightReduction"><span class="smallTagText">For safety reasons some animals cannot be held by the public but can still be petted.</span></p>
 
-      <div class="iconParade">
+      <div class="iconParade text-center">
     <div class="row">
-    <div class="col-md-3 col-6">
+    <div class="col-md-4 col-6">
   <i class="fa fa-car" aria-hidden="true"></i>
   <p class="iconsmallText">APHA Approved Animal Transport Licence</p>
 </div>
-<div class="col-md-3 col-6">
+<div class="col-md-4 col-6">
   <i class="fa fa-graduation-cap" aria-hidden="true"></i>
   <p class="iconsmallText">Animal & Wildlife Management BSc / Animal Health & Welfare FdSc</p>
 </div>
-<div class="col-md-3 col-6">
-  <i class="fa fa-check" aria-hidden="true"></i>
+<div class="col-md-4 col-6">
+  <i class="fa fa-certificate" aria-hidden="true"></i>
   <p class="iconsmallText">Performing Animal License</p>
 </div>
-<div class="col-md-3 col-6">
+<div class="col-md-4 col-6">
   <i class="fa fa-umbrella" aria-hidden="true"></i>
   <p class="iconsmallText">Public Liability Insurance up to £5 million</p>
+</div>
+<div class="col-md-4 col-6">
+  <i class="fa fa-smile-o" aria-hidden="true"></i>
+  <p class="iconsmallText">DBS Checked</p>
+</div>
+<div class="col-md-4 col-6">
+<i class="fa fa-check" aria-hidden="true"></i>
+<p class="iconsmallText">Compliance with the 5 Freedoms</p>
 </div>
 </div>
 </div>
@@ -116,15 +124,15 @@
       <h2 class="eventDescription"><strong>Rates</strong></h2>
   <table>
     <tr>
-      <td>1 hour <span class="smallTagText">(max <strong>12</strong> people handling the Animals)</span></td>
+      <td class="lineHeightReduction">1 hour <span class="smallTagText">(max <strong>12</strong> people handling the Animals)</span></td>
       <td><strong>£115</strong></td>
     </tr>
     <tr>
-      <td>1 hour 15 minutes <span class="smallTagText">(max <strong>15</strong> people handling the Animals)</span></td>
+      <td class="lineHeightReduction">1 hour 15 minutes <span class="smallTagText">(max <strong>15</strong> people handling the Animals)</span></td>
       <td><strong>£140</strong></td>
     </tr>
     <tr>
-      <td>1 hour 30 minutes <span class="smallTagText">(max <strong>18</strong> people handling the Animals)</span></td>
+      <td class="lineHeightReduction">1 hour 30 minutes <span class="smallTagText">(max <strong>18</strong> people handling the Animals)</span></td>
       <td><strong>£165</strong></td>
     </tr>
   </table>
@@ -166,19 +174,28 @@
   <div class="col-md-7 col-12 text-center text-md-left">
     <h3>...and a little about your event.</h3>
 
+      <div>
+    <label class="enquirySelectionTitle" for="postCode">Post Code (if known): <input type="text" class="inputBox" id="postCode" name="postCode"></label>
+    
+  </div>
+
     <p class="enquirySelectionTitle">Please select all the age ranges of those who will be participating:</p>
     <div class="row">
       <div class="col-md-3 col-6">
       
-      <label class="enquirySelectionOptions" for="0-5"><input type="checkbox" id="0-5" name="0-5Years"> 0 - 5 years old</label>
+      <label class="enquirySelectionOptions" for="0-3"><input type="checkbox" id="0-3" name="0-3Years"> 0 - 3 years old</label>
     </div>
     <div class="col-md-3 col-6">
       
-      <label class="enquirySelectionOptions" for="6-10"><input type="checkbox" id="6-10" name="6-10Years"> 6 - 10 years old</label>
+      <label class="enquirySelectionOptions" for="4-8"><input type="checkbox" id="4-8" name="4-8Years"> 4 - 8 years old</label>
     </div>
     <div class="col-md-3 col-6">
       
-      <label class="enquirySelectionOptions" for="11-18"><input type="checkbox" id="11-18" name="11-18Years"> 11 - 18 years old</label>
+      <label class="enquirySelectionOptions" for="9-13"><input type="checkbox" id="9-13" name="9-13Years"> 9 - 13 years old</label>
+    </div>
+        <div class="col-md-3 col-6">
+      
+      <label class="enquirySelectionOptions" for="14-17"><input type="checkbox" id="14-17" name="14-17Years"> 14 - 17 years old</label>
     </div>
     <div class="col-md-3 col-6">
       
@@ -200,6 +217,10 @@
         <div class="col-md-4 col-6">
       
       <label class="enquirySelectionOptions" for="130hourbday"><input type="checkbox" id="130hourbday" name="130hourbday"> 1 hour 30 minutes <span class="smallTagText">(18 participating)</span></label>
+    </div>
+            <div class="col-md-4 col-6">
+      
+      <label class="enquirySelectionOptions" for="longerbday"><input type="checkbox" id="longerbday" name="longerbday"> Longer Event</label>
     </div>
   </div>
   <div>

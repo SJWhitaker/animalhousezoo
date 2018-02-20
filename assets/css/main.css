@@ -96,9 +96,22 @@ input {
 	font-size: 0.5em;
 }
 
+#bolding {
+	color: #007bff;
+}
+
+.lineHeightReduction {
+	line-height: 1;
+}
+
 .tncs {
 	text-decoration: underline!important;
 	font-size: 1.1em;
+}
+
+.makeMeBoldScotty {
+	font-size: 1.6em;
+	color: #FEC52D;
 }
 
 .tncs:hover {
