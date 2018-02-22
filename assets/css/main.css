@@ -10,6 +10,10 @@ body {
 
 }
 
+.active {
+	border-radius: 10%;
+}
+
 ul {
 	list-style: none;
 	padding: 4%;
@@ -64,6 +68,7 @@ input {
 	background-color:#5cb85c;
 	border-radius: 10px;
 	text-align: center;
+	height: 70px;
 }
 
 /*animations*/
@@ -121,10 +126,6 @@ input {
 
 /*siteWide*/
 
-h1 {
-		font-size: 3em;
-	
-}
 
 .container {
 	width: 80%;
@@ -217,8 +218,8 @@ th:nth-of-type(2) {
 	margin-bottom: 9%;
 }
 
-.navbar-light .navbar-toggler {
-	border-color: white;
+.navbar-dark .navbar-toggler {
+	border-color: #D3D3D3;
 }
 
 #slightTopMargin {
