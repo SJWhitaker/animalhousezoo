@@ -122,21 +122,22 @@
  <div class="container contactForm hidden" id="schoolContact">
     <div class="text-center">
     </div>
-      <form action="/my-handling-form-page" method="post">
+            <form action="https://formspree.io/whit_91@hotmail.com"
+      method="POST">
     <div class="row">
       <div class="col-12 text-center">
         <h3 id="formBelow">Tell us a little about yourself</h3>
   <div>
-    <label class="enquirySelectionTitle" for="name">Contact Name: <input type="text" class="inputBox" id="name" name="user_name"></label>
+    <label class="enquirySelectionTitle" for="name">Contact Name: <input type="text" class="inputBox" id="name" name="user_name" required></label>
     
   </div>
   <div>
-    <label class="enquirySelectionTitle" for="mail">Contact E-mail: <input type="email" class="inputBox" id="mail" name="user_email"></label>
+    <label class="enquirySelectionTitle" for="mail">Contact E-mail: <input type="email" class="inputBox" id="mail" name="user_email" required></label>
     
   </div>
 
   <div>
-    <label class="enquirySelectionTitle" for="telNo">Contact Phone: <input type="tel" class="inputBox" id="telNo" name="user_phone"></label>
+    <label class="enquirySelectionTitle" for="telNo">Contact Phone: <input type="tel" class="inputBox" id="telNo" name="user_phone" required></label>
     
   </div>
               <div>
@@ -144,7 +145,8 @@
     
   </div>
 <div id="slightTopMargin">
-<p class="text-center">Please read our<a class="btn tncs clickable" data-toggle="modal" data-target="#schoolTCs">Terms and Conditions</a> before submitting your enquiry <input type="checkbox"></p>
+<p class="text-center">Please read our<a class="btn tncs clickable" data-toggle="modal" data-target="#schoolTCs">Terms and Conditions</a> before submitting your enquiry <input type="checkbox" required></p>
+<input type="hidden" name="_next" value="//animalhousezoo.co.uk/formSent.html" />
 </div>
   </div>
 </div>
