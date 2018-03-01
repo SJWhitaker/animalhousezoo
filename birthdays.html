@@ -155,16 +155,16 @@
       <div class="col-md-5 col-12 contactDivide text-center text-md-left">
         <h3 id="formBelow">Tell us a little about yourself</h3>
   <div>
-    <label class="enquirySelectionTitle" for="name">Name: <input type="text" class="inputBox" id="name" name="name"></label>
+    <label class="enquirySelectionTitle" for="name">Name: <input type="text" class="inputBox" id="name" name="name" required></label>
     
   </div>
   <div>
-    <label class="enquirySelectionTitle" for="mail">E-mail:  <input type="email" class="inputBox" id="mail" name="email"></label>
+    <label class="enquirySelectionTitle" for="mail">E-mail:  <input type="email" class="inputBox" id="mail" name="email" required></label>
    
   </div>
 
   <div>
-    <label class="enquirySelectionTitle" for="telNo">Phone: <input type="tel" class="inputBox" id="telNo" name="phone"></label>
+    <label class="enquirySelectionTitle" for="telNo">Phone: <input type="tel" class="inputBox" id="telNo" name="phone" required></label>
     
   </div>
 
@@ -226,13 +226,13 @@
   <div>
 
     <label class="enquirySelectionTitle" for="schoolDates">Date you wish to book:</label>
-    <input type="date" id="schoolDates" name="schoolDates">
+    <input type="date" id="schoolDates" name="schoolDates" required>
   </div>
   </div>
  </div>
 
 <p class="text-center">Please read our<a class="btn tncs clickable" data-toggle="modal" data-target="#schoolTCs">Terms and Conditions</a> before submitting your enquiry <input type="checkbox" name="t&cs" required></p>
-
+<input type="hidden" name="_next" value="//animalhousezoo.co.uk/index.html" />
   <div class="button text-center">
     <button type="submit" value="Send" class="btn btn-success btn-lg btn-block clickable">Send your message</button>
   </div>
