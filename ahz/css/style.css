@@ -6,8 +6,6 @@
 #268d64 green dark
 */
 
-//@font-face { font-family: JungleFever; src: url(http://animalhousezoo.co.uk/ahz/fonts/junglefever.otf); font-weight: normal; }  
-
 @font-face {
   font-family: JungleFever;
   src: url("http://animalhousezoo.co.uk/ahz/fonts/junglefever.eot"); /* IE9 Compat Modes */
@@ -52,18 +50,6 @@ h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 //.carousel-inner .item { width: 100%; }
 //#carousel-testimonials .carousel-item.active {display:inline-block !important;}
 
-/* Prelaoder */
-#preloader {
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 999;
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
-}
-
 
 /*--------------------------------------------------------------
 # Header
@@ -107,14 +93,14 @@ h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero { width: 100%; height: 100vh; background: url(../images/carousel2.jpg) top right; background-size: cover; position: relative; }
+#hero { width: 100%; height: 100vh; background: url(../images/carousel2.jpg) top right; background-size: cover; position: relative; background-attachment: fixed;}
 #hero-custom {width: 100%; height:50%; background-size: cover; position: relative; background-repeat: no-repeat; }
 #hero-custom .hero-image { min-height: 400px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; }
 
 
 @media (min-width: 1024px) {
   #hero {
-    background-attachment: fixed;
+    //background-attachment: fixed;
   }
 }
 
