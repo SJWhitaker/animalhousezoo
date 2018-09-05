@@ -622,13 +622,13 @@ blockquote p { padding-bottom: 20px !important; }
   font-size: 13px;
 }
 
-#contact .wpcf7-form input, #contact .wpcf7-form textarea, input.wpcf7-text {
+#contact input, #contact textarea {
   border-radius: 0;
   box-shadow: none; 
   border:1px solid #999999;  
 }  
-#contact .wpcf7-form textarea {width: 100%; padding: 6px; margin-top: 4px; height: 100px;}
-#contact .wpcf7-form input[type="email"], #contact .wpcf7-form input[type="text"], #contact .wpcf7-form input[type="tel"]  { padding: 6px; width: 100%; }
+#contact textarea {width: 100%; padding: 6px; margin-top: 4px; height: 100px;}
+#contact input[type="email"], #contact input[type="text"], #contact input[type="tel"]  { padding: 6px; width: 100%; }
 
 
 
