@@ -87,12 +87,39 @@
       </div>
     </div>
       
-      <section id="contact">
+         <section id="contact">
         <div class="container-fluid">       
          <div class="row">
          	<div class="col-xs-12 col-sm-12 col-md-12">
-  	 		    <?php if (dynamic_sidebar('page')); ?>
-  	 	    </div>
+          
+          <div class="container wow fadeInUp">
+          <div class="section-header">
+          <h2 class="section-title">Send Us A Message</h2><br>
+          </div>
+          </div>
+          <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { return false; }">
+          <div class="container wow fadeInUp">
+          
+            <div class="row">
+            <div class="col-sm-12 col-md-4">[text* your-name placeholder "Name"]</div>
+            <div class="col-sm-12 col-md-4">[text* your-email placeholder "Email"]</div>
+            <div class="col-sm-12 col-md-4">[text your-tel placeholder "Contact Number"]</div>
+            </div>
+            <div class="row">
+            <div class="col-sm-12 col-md-12">[textarea your-message placeholder "Your Message"]</div>
+            </div>
+          
+            <div class="row">
+            <div class="col-sm-12 col-md-12">
+            <input type="checkbox" name="checkbox" value="check" id="agree" /> I give you permission to contact me by email regarding my enquiry
+            <input type="submit" name="submit" value="Send" />
+            </div>
+            </div>
+          
+          </div>
+          </form>
+          
+          </div>
         </div>
        </div>
       </section>
