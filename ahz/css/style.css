@@ -6,7 +6,20 @@
 #268d64 green dark
 */
 
-@font-face { font-family: JungleFever; src: url(http://animalhousezoo.co.uk/ahz/fonts/junglefever.otf); font-weight: normal; }  
+//@font-face { font-family: JungleFever; src: url(http://animalhousezoo.co.uk/ahz/fonts/junglefever.otf); font-weight: normal; }  
+
+@font-face {
+  font-family: JungleFever;
+  src: url("http://animalhousezoo.co.uk/ahz/fonts/junglefever.eot"); /* IE9 Compat Modes */
+  src: url("http://animalhousezoo.co.uk/ahz/fonts/junglefever.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://animalhousezoo.co.uk/ahz/fonts/junglefever.otf") format("opentype"), /* Open Type Font */
+    url("http://animalhousezoo.co.uk/ahz/fonts/junglefever.svg") format("svg"), /* Legacy iOS */
+    url("http://animalhousezoo.co.uk/ahz/fonts/junglefever.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("http://animalhousezoo.co.uk/ahz/fonts/junglefever.woff") format("woff"), /* Modern Browsers */
+    url("http://animalhousezoo.co.uk/ahz/fonts/junglefever.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
 
 body { font-family: Poppins !important; padding-right: 0 !important }
 
