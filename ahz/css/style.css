@@ -7,7 +7,7 @@
 */
 
 @font-face {
-  font-family: JungleFever;
+  font-family: "JungleFever";
   src: url("fonts/junglefever.eot"); /* IE9 Compat Modes */
   src: url("fonts/junglefever.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("fonts/junglefever.otf") format("opentype"), /* Open Type Font */
@@ -27,7 +27,7 @@ a:hover, a:active, a:focus {color:#268d64; text-decoration:none !important;}
 
 h1, h2, h3, h4, h5, h6 {color:#ffffff; font-weight: 400;  margin: 0 0 20px 0; padding: 0;}
 p { font-family: "Poppins" "Sans-Serif" !important; padding: 0; margin: 0 0 30px 0; }
-h1 {font-family: JungleFever; letter-spacing:2px; }
+h1 {font-family: "JungleFever"; letter-spacing:2px; }
 h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 
 /* buttons */
@@ -126,7 +126,7 @@ h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 
 #hero .hero-container, #hero-custom .hero-container { position: absolute; bottom: 0; top: 0; left: 0; right: 0; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; }
 
-#hero h1, #hero-custom h1 { margin: 30px 0 10px 0; font-family: JungleFever !important; letter-spacing:2px;  font-size: 48px; font-weight: 700; line-height: 56px; text-transform: uppercase; color: #fff; }
+#hero h1, #hero-custom h1 { margin: 30px 0 10px 0; font-family: "JungleFever" !important; letter-spacing:2px;  font-size: 48px; font-weight: 700; line-height: 56px; text-transform: uppercase; color: #fff; }
 #hero h2 { color: #ffffff; margin-bottom: 50px; font-size: 24px; font-family: "Poppins", sans-serif !important; }
 
 @media (max-width: 768px) {
