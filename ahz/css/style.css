@@ -8,13 +8,13 @@
 
 @font-face {
   font-family: JungleFever;
-  src: url("./fonts/junglefever.eot"); /* IE9 Compat Modes */
-  src: url("./fonts/junglefever.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("./fonts/junglefever.otf") format("opentype"), /* Open Type Font */
-    url("./fonts/junglefever.svg") format("svg"), /* Legacy iOS */
-    url("./fonts/junglefever.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("./fonts/junglefever.woff") format("woff"), /* Modern Browsers */
-    url("./fonts/junglefever.woff2") format("woff2"); /* Modern Browsers */
+  src: url("fonts/junglefever.eot"); /* IE9 Compat Modes */
+  src: url("fonts/junglefever.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/junglefever.otf") format("opentype"), /* Open Type Font */
+    url("fonts/junglefever.svg") format("svg"), /* Legacy iOS */
+    url("fonts/junglefever.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("fonts/junglefever.woff") format("woff"), /* Modern Browsers */
+    url("fonts/junglefever.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
