@@ -93,12 +93,12 @@ h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero { width: 100%; height: 100vh; background: url(../images/carousel2.jpg) top right; background-size: cover; position: relative;}
+#hero { width: 100%; height: 80vh; background: url(../images/carousel2.jpg) top right; background-size: cover; position: relative;}
 #hero-custom {width: 100%; height:50%; background-size: cover; position: relative; background-repeat: no-repeat; }
 #hero-custom .hero-image { min-height: 400px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 320px) {
   #hero {
     background-attachment: fixed;
   }
