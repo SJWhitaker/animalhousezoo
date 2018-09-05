@@ -7,7 +7,7 @@
 */
 
 @font-face {
-  font-family: "JungleFever";
+  font-family: JungleFever;
   src: url("./fonts/junglefever.eot"); /* IE9 Compat Modes */
   src: url("./fonts/junglefever.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
     url("./fonts/junglefever.otf") format("opentype"), /* Open Type Font */
