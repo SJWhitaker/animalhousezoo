@@ -8,13 +8,13 @@
 
 @font-face {
   font-family: JungleFever;
-  src: url("http://www.animalhousezoo.co.uk/ahz/fonts/junglefever.eot"); /* IE9 Compat Modes */
-  src: url("http://www.animalhousezoo.co.uk/ahz/fonts/junglefever.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("http://www.animalhousezoo.co.uk/ahz/fonts/junglefever.otf") format("opentype"), /* Open Type Font */
-    url("http://www.animalhousezoo.co.uk/ahz/fonts/junglefever.svg") format("svg"), /* Legacy iOS */
-    url("http://www.animalhousezoo.co.uk/ahz/fonts/junglefever.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("http://www.animalhousezoo.co.uk/ahz/fonts/junglefever.woff") format("woff"), /* Modern Browsers */
-    url("http://www.animalhousezoo.co.uk/ahz/fonts/junglefever.woff2") format("woff2"); /* Modern Browsers */
+  src: url("https://www.animalhousezoo.co.uk/ahz/fonts/junglefever.eot"); /* IE9 Compat Modes */
+  src: url("https://www.animalhousezoo.co.uk/ahz/fonts/junglefever.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://www.animalhousezoo.co.uk/ahz/fonts/junglefever.otf") format("opentype"), /* Open Type Font */
+    url("https://www.animalhousezoo.co.uk/ahz/fonts/junglefever.svg") format("svg"), /* Legacy iOS */
+    url("https://www.animalhousezoo.co.uk/ahz/fonts/junglefever.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("https://www.animalhousezoo.co.uk/ahz/fonts/junglefever.woff") format("woff"), /* Modern Browsers */
+    url("https://www.animalhousezoo.co.uk/ahz/fonts/junglefever.woff2") format("woff2"); /* Modern Browsers */
   font-weight: normal;
   font-style: normal;
 }
