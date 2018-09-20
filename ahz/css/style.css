@@ -26,8 +26,8 @@ a {color:#33bc85;}
 a:hover, a:active, a:focus {color:#268d64; text-decoration:none !important;}
 
 h1, h2, h3, h4, h5, h6 {color:#ffffff; font-weight: 400;  margin: 0 0 20px 0; padding: 0;}
-p { font-family: "Poppins" "Sans-Serif" !important; padding: 0; margin: 0 0 30px 0; }
-h1 {font-family: "JungleFever"; letter-spacing:2px; }
+p { font-family: Poppins !important; padding: 0; margin: 0 0 30px 0; }
+h1 {font-family: JungleFever; letter-spacing:2px; }
 h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 
 /* buttons */
