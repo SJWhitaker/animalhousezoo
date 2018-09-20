@@ -628,7 +628,7 @@ blockquote p { padding-bottom: 20px !important; }
   border:1px solid #999999;  
 }  
 #contact textarea {width: 100%; padding: 6px; margin-top: 4px; height: 100px;}
-#contact input[type="email"], #contact input[type="text"], #contact input[type="tel"]  { padding: 6px; width: 100%; margin-top: 5px;}
+#contact input[type="email"], #contact input[type="text"], #contact input[type="tel"]  { padding: 6px; width: 100%; margin-top: 15px;}
 
 
 
