@@ -95,7 +95,7 @@ h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 --------------------------------------------------------------*/
 #hero { width: 100%; height: 90vh; background: url(../images/carousel2.jpg) top right; background-size: cover; position: relative;}
 #hero-custom {width: 100%; height:50%; background-size: cover; position: relative; background-repeat: no-repeat; }
-#hero-custom .hero-image { min-height: 400px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; }
+#hero-custom .hero-image { min-height: 300px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; }
 .banner-about {background: url(../images/page-banner1.jpg);}
 
 @media (max-width: 768px) {
@@ -129,30 +129,30 @@ h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 @media (max-width: 920px) {
   //#hero h2 { font-size: 18px; line-height: 24px; margin-bottom: 30px; }
   //#hero h1, #hero-custom h1 {  }
-  #hero-custom .hero-image { min-height: 300px; }
+  //#hero-custom .hero-image { min-height: 300px; }
 }
 
 @media (max-width: 726px) {
   //#hero h2 { font-size: 18px; line-height: 24px; margin-bottom: 30px; }
-  #hero-custom .hero-image { min-height: 250px; }
+  //#hero-custom .hero-image { min-height: 250px; }
 }
 
 @media (max-width: 620px) {
   #hero h2 { font-size: 20px; line-height: 24px; margin-bottom: 30px; }
   #hero h1, #hero-custom h1 { font-size: 42px; }
-  #hero-custom .hero-image { min-height: 235px; }
+  //#hero-custom .hero-image { min-height: 235px; }
 }
 
 @media (max-width: 555px) {
   //#hero h2 { font-size: 18px; line-height: 24px; margin-bottom: 30px; }
   #hero h1, #hero-custom h1 { font-size: 36px; }
-  #hero-custom .hero-image { min-height: 210px; }
+  //#hero-custom .hero-image { min-height: 210px; }
 }
 
 @media (max-width: 500px) {
   //#hero h2 { font-size: 18px; line-height: 24px; margin-bottom: 30px; }
   #hero h1, #hero-custom h1 { font-size: 32px; }
-  #hero-custom .hero-image { min-height: 150px; }
+  //#hero-custom .hero-image { min-height: 150px; }
 }
 
 
