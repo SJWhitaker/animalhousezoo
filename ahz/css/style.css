@@ -98,7 +98,11 @@ h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 #hero-custom .hero-image { min-height: 300px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; }
 .banner-about {background: url(../images/page-banner1.jpg);}
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+  .banner-about {background: url(../images/page-banner1-md.jpg);}
+}
+
+@media (max-width: 510px) {
   .banner-about {background: url(../images/page-banner1-sml.jpg);}
 }
 
