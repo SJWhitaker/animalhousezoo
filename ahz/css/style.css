@@ -534,7 +534,7 @@ span.wpcf7-list-item { padding: 0 20px; }
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  #call-to-action {
     background-attachment: fixed;
   }
 }
