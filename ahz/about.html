@@ -102,7 +102,7 @@
           
             <div class="row">
             <div class="col-sm-12 col-md-4"><input style="width: 100%;" type="text" name="name" placeholder="Name" required></div>
-            <div class="col-sm-12 col-md-4"><input style="width: 100%;" type="text" name="email" placeholder="Email" required></div>
+            <div class="col-sm-12 col-md-4"><input style="width: 100%;" type="text" name="_replyto" placeholder="Email" required></div>
             <div class="col-sm-12 col-md-4"><input style="width: 100%;" type="text" name="number" placeholder="Contact Number" required></div>
             </div>
             <div class="row" style="margin-top:15px;">
@@ -112,7 +112,9 @@
             <div class="row">
             <div class="col-sm-12 col-md-12"> 
             <input type="checkbox" value="check" id="agree" /> I give you permission to contact me by email regarding my enquiry<br>
-            <input type="submit" value="Send" />
+            <input type="hidden" name="_next" value="thanks.html">
+	    <input type="hidden" name="_subject" value="Animal House Zoo Website Enquiry" />
+	    <input type="submit" value="Send">
             </div>
             </div>
           
