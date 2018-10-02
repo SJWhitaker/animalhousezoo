@@ -11,9 +11,9 @@
   <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link href="http://animalhousezoo.co.uk/ahz/css/bootstrap.min.css" rel="stylesheet">
-  <link href="http://animalhousezoo.co.uk/ahz/lib/animate/animate.min.css" rel="stylesheet">
-  <link href="http://animalhousezoo.co.uk/ahz/css/style.css" rel="stylesheet">
+  <link href="https://www.animalhousezoo.co.uk/ahz/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://www.animalhousezoo.co.uk/ahz/lib/animate/animate.min.css" rel="stylesheet">
+  <link href="https://www.animalhousezoo.co.uk/ahz/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -29,8 +29,8 @@
   
        <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="index-new.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index-new.html">Home</a></li>
+          <li class="menu-active"><a href="about.html">About</a></li>
           <li><a href="meet-the-animals">Meet The Animals</a></li>
          <li class="menu-has-children"><a href="#">Enquiries</a>
             <ul>
@@ -53,7 +53,7 @@
 
     <section id="hero-custom">
   
-    	<div class="hero-image img-fluid" style="background-image: url(images/page-banner1.jpg);">
+    	<div class="hero-image img-fluid banner-about">
         <div class="hero-container">
     				<div>
               <h1>About</h1>    
@@ -73,25 +73,21 @@
         <section id="main-inner">
         <div class="container wow fadeIn">
         <div class="row">
-        <div class="col-md-12"><img class="size-full wp-image-12 alignright" src="images/rachel.jpg" alt="Rachel - Animal House Zoo" width="200" height="200" />Hi, my Name is Rachel and I am the founder and owner of Animal House Zoo.
-        
-        It has always been a lifelong passion of mine to work with animals. At the age of 19 I visited Australia for 6 months to work on a wildlife park. One of my duties was to present animal talks to the public for a range of species and it was at this point I decided to make this my career.
-        
-        When I returned from Australia I studied Animal Health and Welfare where I obtained my Foundation Degree. I then went on to study Animal and Wildlife Management where I was awarded my Bachelor of Science Honours Degree.
-        
-        After volunteering for a number of animal charities and companies I felt it was the right time to establish my own business doing something that I’m passionate about. So here I am, providing animal encounters in a safe and professional manner, educating our future generations on the welfare and conservation of our animals, and housing animals in accordance with <a href="http://localhost/ahz/the-5-freedoms/">the Five Freedoms</a> listed on the Animal Welfare Act 2007.
-        
+        <div class="col-md-12"><img class="size-full wp-image-12 alignright" src="images/rachel.jpg" alt="Rachel - Animal House Zoo" width="200" height="200" />
+		<p>Hi, my Name is Rachel and I am the founder and owner of Animal House Zoo.</p>
+		<p>It has always been a lifelong passion of mine to work with animals. At the age of 19 I visited Australia for 6 months to work on a wildlife park. One of my duties was to present animal talks to the public for a range of species and it was at this point I decided to make this my career.</p>
+		<p>When I returned from Australia I studied Animal Health and Welfare where I obtained my Foundation Degree. I then went on to study Animal and Wildlife Management where I was awarded my Bachelor of Science Honours Degree.</p>
+		<p>After volunteering for a number of animal charities and companies I felt it was the right time to establish my own business doing something that I'm passionate about. So here I am, providing animal encounters in a safe and professional manner, educating our future generations on the welfare and conservation of our animals, and housing animals in accordance with <a href="the-5-freedoms.html">the Five Freedoms</a> listed on the Animal Welfare Act 2007.</p>        
         </div>
         </div>
         </div>
-        </section>
-     
+	</section>    
          
         </div>
       </div>
     </div>
       
-      <section id="contact">
+         <section id="contact">
         <div class="container-fluid">       
          <div class="row">
          	<div class="col-xs-12 col-sm-12 col-md-12">
@@ -101,22 +97,24 @@
           <h2 class="section-title">Send Us A Message</h2><br>
           </div>
           </div>
-          <form action="#" onsubmit="if(document.getElementById('agree').checked) { return true; } else { return false; }">
+          <form action="https://formspree.io/hello@animalhousezoo.co.uk" method="POST" onsubmit="if(document.getElementById('agree').checked) { return true; } else { return false; }">
           <div class="container wow fadeInUp">
           
             <div class="row">
-            <div class="col-sm-12 col-md-4">[text* your-name placeholder "Name"]</div>
-            <div class="col-sm-12 col-md-4">[text* your-email placeholder "Email"]</div>
-            <div class="col-sm-12 col-md-4">[text your-tel placeholder "Contact Number"]</div>
+            <div class="col-sm-12 col-md-4"><input style="width: 100%;" type="text" name="name" placeholder="Name" required></div>
+            <div class="col-sm-12 col-md-4"><input style="width: 100%;" type="text" name="email" placeholder="Email" required></div>
+            <div class="col-sm-12 col-md-4"><input style="width: 100%;" type="text" name="number" placeholder="Contact Number" required></div>
             </div>
-            <div class="row">
-            <div class="col-sm-12 col-md-12">[textarea your-message placeholder "Your Message"]</div>
+            <div class="row" style="margin-top:15px;">
+            <div class="col-sm-12 col-md-12"><textarea style="width: 100%;" name="message" placeholder="Your Message"></textarea></div>
             </div>
           
             <div class="row">
-            <div class="col-sm-12 col-md-12">
-            <input type="checkbox" name="checkbox" value="check" id="agree" /> I give you permission to contact me by email regarding my enquiry
-            <input type="submit" name="submit" value="Send" />
+            <div class="col-sm-12 col-md-12"> 
+            <input type="checkbox" value="check" id="agree" /> I give you permission to contact me by email regarding my enquiry<br>
+            <input type="hidden" name="_next" value="https://www.animalhousezoo.co.uk/ahz/form-thanks.html">
+	    <input type="hidden" name="_subject" value="Animal House Zoo Website Enquiry" />
+	    <input type="submit" value="Send">
             </div>
             </div>
           
@@ -182,7 +180,7 @@
           </div>
 
           <div class="footer-details">
-            <span itemprop="email"><a href="mailto:hello@amimalhousezoo.co.uk">hello@amimalhousezoo.co.uk</a></span>
+            <span itemprop="email"><a href="mailto:hello@animalhousezoo.co.uk">hello@animalhousezoo.co.uk</a></span>
           </div>
           <div class="footer-details">
             <span itemprop="telephone"><a href="tel:07491774424">07491 774424</a></span>
@@ -214,21 +212,21 @@
 </main>
 
 <!-- JavaScript Libraries -->
-  <script src="http://animalhousezoo.co.uk/ahz/lib/jquery/jquery.min.js"></script>
-  <script src="http://animalhousezoo.co.uk/ahz/lib/jquery/jquery-migrate.min.js"></script>
-  <script src="http://animalhousezoo.co.uk/ahz/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="http://animalhousezoo.co.uk/ahz/lib/easing/easing.min.js"></script>
-  <script src="http://animalhousezoo.co.uk/ahz/lib/wow/wow.min.js"></script>
+  <script src="https://www.animalhousezoo.co.uk/ahz/lib/jquery/jquery.min.js"></script>
+  <script src="https://www.animalhousezoo.co.uk/ahz/lib/jquery/jquery-migrate.min.js"></script>
+  <script src="https://www.animalhousezoo.co.uk/ahz/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://www.animalhousezoo.co.uk/ahz/lib/easing/easing.min.js"></script>
+  <script src="https://www.animalhousezoo.co.uk/ahz/lib/wow/wow.min.js"></script>
 
-  <script src="http://animalhousezoo.co.uk/ahz/lib/waypoints/waypoints.min.js"></script>
-  <script src="http://animalhousezoo.co.uk/ahz/lib/counterup/counterup.min.js"></script>
-  <script src="http://animalhousezoo.co.uk/ahz/lib/superfish/hoverIntent.js"></script>
-  <script src="http://animalhousezoo.co.uk/ahz/lib/superfish/superfish.min.js"></script>
+  <script src="https://www.animalhousezoo.co.uk/ahz/lib/waypoints/waypoints.min.js"></script>
+  <script src="https://www.animalhousezoo.co.uk/ahz/lib/counterup/counterup.min.js"></script>
+  <script src="https://www.animalhousezoo.co.uk/ahz/lib/superfish/hoverIntent.js"></script>
+  <script src="https://www.animalhousezoo.co.uk/ahz/lib/superfish/superfish.min.js"></script>
   
   
 
   <!-- Template Main Javascript File -->
-  <script src="http://animalhousezoo.co.uk/ahz/js/main.js"></script>
+  <script src="https://www.animalhousezoo.co.uk/ahz/js/main.js"></script>
 
 
      
