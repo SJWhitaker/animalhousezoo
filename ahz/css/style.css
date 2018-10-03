@@ -23,12 +23,12 @@ body { font-family: Poppins !important; padding-right: 0 !important }
 
 
 a {color:#33bc85;}  
-a:hover, a:active, a:focus {color:#268d64; text-decoration:none !important;}
+a:hover, a:active, a:focus {color:#268d64; text-decoration:none !important; font-family: "Poppins" "Sans-Serif" !important;}
 
-h1, h2, h3, h4, h5, h6 {color:#ffffff; font-weight: 400;  margin: 0 0 20px 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 {color:#000000; font-weight: 400;  margin: 0 0 20px 0; padding: 0;}
 p { font-family: "Poppins" !important; padding: 0; margin: 0 0 30px 0; }
-h1 {font-family: "JungleFever"; letter-spacing:2px; }
-h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
+//h1 {font-family: "JungleFever"; letter-spacing:2px; }
+//h1, h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 
 /* buttons */
 .btn-full { font-family: "Poppins", sans-serif; text-transform: uppercase; font-weight: 500; font-size: 14px; letter-spacing: 1px; display: inline-block; padding: 8px 30px; border-radius: 4px; transition: 0.5s; margin: 10px; border: 2px solid #fff; background: #33bc85; color: #ffffff !important; }
@@ -94,6 +94,7 @@ h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 # Hero Section
 --------------------------------------------------------------*/
 #hero { width: 100%; height: 90vh; background: url(../images/carousel2.jpg) top right; background-size: cover; position: relative;}
+#hero h1 {font-family: "JungleFever" !important; letter-spacing:2px; }
 #hero-custom {width: 100%; height:50%; background-size: cover; position: relative; background-repeat: no-repeat; }
 #hero-custom .hero-image { min-height: 300px; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; }
 .banner-about {background: url(../images/page-banner1.jpg);}
