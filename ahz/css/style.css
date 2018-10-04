@@ -585,19 +585,9 @@ span.wpcf7-list-item { padding: 0 20px; }
 #carousel-testimonials.carousel-indicators li { background: #ffaf06; border-color: transparent; box-shadow: inset 0 2px 1px rgba(0,0,0,0.2); }
 #carousel-testimonials.carousel-indicators li.active { background: #ffc21c;	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2); }
 
+#main-inner .t-quote { color: #ffc21c; } 
 blockquote { }  
-blockquote::before {
-  font-family: FontAwesome;
-  content: '\f10d'; /*quote left icon*/
-}
 //blockquote:before { font-family: fontawesome; content: '\F10d'; display: block; float: left; position: relative; margin: -0.75em 0 0 -1.5em; font-size: 2em; color: #ffc21c; }                                    
-//blockquote:before { content: '\201C';
-      position: absolute;
-      top: 0.25em;
-      left: -0.15em;
-      color: darken($white, 7%);
-      font-size: 6em;
-      z-index: -1; }
 blockquote span { color: #ffc21c;  }
 blockquote p { padding-bottom: 20px !important; }
 
