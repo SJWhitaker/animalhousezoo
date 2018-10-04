@@ -585,8 +585,19 @@ span.wpcf7-list-item { padding: 0 20px; }
 #carousel-testimonials.carousel-indicators li { background: #ffaf06; border-color: transparent; box-shadow: inset 0 2px 1px rgba(0,0,0,0.2); }
 #carousel-testimonials.carousel-indicators li.active { background: #ffc21c;	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2); }
 
+.fp-prev:before {
+    color:#000;
+    content: '\f10d'; /* You should use \ and not /*/
+    font-family: "Font Awesome 5 Free"; /* This is the correct font-family*/
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+
+
+
 blockquote { }   
-blockquote:before { font-family: fontawesome; content: "\F10D"; display: block; float: left; position: relative; margin: -0.75em 0 0 -1.5em; font-size: 2em; color: #ffc21c; }                                    
+blockquote:before { font-family: fontawesome; content: "\F10d"; display: block; float: left; position: relative; margin: -0.75em 0 0 -1.5em; font-size: 2em; color: #ffc21c; }                                    
 blockquote span { color: #ffc21c;  }
 blockquote p { padding-bottom: 20px !important; }
 
