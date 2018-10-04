@@ -27,8 +27,6 @@ a:hover, a:active, a:focus {color:#268d64; text-decoration:none !important; font
 
 h1, h2, h3, h4, h5, h6 {color:#000000; font-weight: 400;  margin: 0 0 20px 0; padding: 0;}
 p { font-family: "Poppins" !important; padding: 0; margin: 0 0 30px 0; }
-//h1 {font-family: "JungleFever"; letter-spacing:2px; }
-//h1, h2, h3, h4, h5, h6 {font-family: "Poppins" "Sans-Serif" !important; }
 
 /* buttons */
 .btn-full { font-family: "Poppins", sans-serif; text-transform: uppercase; font-weight: 500; font-size: 14px; letter-spacing: 1px; display: inline-block; padding: 8px 30px; border-radius: 4px; transition: 0.5s; margin: 10px; border: 2px solid #fff; background: #33bc85; color: #ffffff !important; }
@@ -65,7 +63,7 @@ p { font-family: "Poppins" !important; padding: 0; margin: 0 0 30px 0; }
   z-index: 997;
 }
 
-#header clear-img {
+#header .clear-img {
   background: rgba(52, 59, 64, 0.9);
 }
 
