@@ -6,6 +6,37 @@
 #268d64 green dark
 */
 
+#DIV_1 {
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    padding: 20px 20px 20px 70px;
+    font: normal normal normal normal 16px/24px 'Merriweather Sans', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-size: 16px;
+font-style: italic;
+line-height: 1.5em;
+background: #eee;
+color: #898989;
+}
+
+#DIV_1:before {
+  font-family: "FontAwesome";
+  content: "\f10d";
+  font-size: 30px;
+  font-style: normal;
+  color: #cecece;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+#P_3 {
+    margin: 10px 0px;
+}
+
+
+
 @font-face {
   font-family: JungleFever;
   src: url("https://www.animalhousezoo.co.uk/ahz/fonts/junglefever.eot"); /* IE9 Compat Modes */
