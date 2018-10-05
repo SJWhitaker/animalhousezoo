@@ -72,17 +72,20 @@ p { font-family: "Poppins" !important; padding: 0; margin: 0 0 30px 0; }
 
 .banner-about {background: url(../images/page-banner1.jpg);}
 .banner-contact {background: url(../images/page-banner2.jpg);}
+.banner-faq {background: url(../images/page-banner3.jpg);}
 .banner-testimonials {background: url(../images/page-banner8.jpg);}
 
 @media (max-width: 800px) {
   .banner-about {background: url(../images/page-banner1-md.jpg);}
   .banner-contact {background: url(../images/page-banner2-md.jpg);}
+  .banner-faq {background: url(../images/page-banner3-md.jpg);}
   .banner-testimonials {background: url(../images/page-banner8-md.jpg);}
 }
 
 @media (max-width: 510px) {
   .banner-about {background: url(../images/page-banner1-sml.jpg);}
   .banner-contact {background: url(../images/page-banner2-sml.jpg);}
+  .banner-faq {background: url(../images/page-banner3-sml.jpg);}
   .banner-testimonials {background: url(../images/page-banner8-sml.jpg);}
 }
 
