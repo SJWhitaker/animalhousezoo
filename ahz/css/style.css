@@ -265,6 +265,7 @@ p { font-family: "Poppins" !important; padding: 0; margin: 0 0 30px 0; }
 }
 
 .nav-menu ul li .submenu-active { background: #2dc997; color: #fff; }
+.nav-menu ul li.menu-has-children.menu-active ul li.submenu-active { background: #2dc997; color: #fff; }
 
 .nav-menu ul { margin: 4px 0 0 0; border: 1px solid #e7e7e7; }
 .nav-menu ul li { background: #fff; }
