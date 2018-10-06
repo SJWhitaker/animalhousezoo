@@ -80,9 +80,7 @@
 	   
 <section id="main-inner">
 <div class="container">
-<div class="row">
-<div class="col-md-12">
-<h1>Birthday Parties</h1>
+
 <div class="row">
 <div class="col-sm-12 col-md-6">
 
@@ -113,8 +111,6 @@
 </div>
 </div>
 
-
-
   <section id="contact">
     <div class="container-fluid">       
       <div class="row">
@@ -126,7 +122,7 @@
             </div>
           </div>
           
-          <form action="https://formspree.io/j_e_statham@hotmail.com" method="POST" onsubmit="if(document.getElementById('agree').checked) { return true; } else { return false; }">
+          <form action="https://formspree.io/j_e_statham@hotmail.com" method="POST" onsubmit="if(document.getElementById('agree').checked && document.getElementById('tc-agree').checked)  { return true; } else { return false; }">
           
           <div class="container wow fadeInUp">          
             <div class="row">
@@ -193,7 +189,8 @@
             <div class="row">
               <div class="col-sm-12 col-md-12"> 
                 <input type="checkbox" value="check" id="agree" /> I give you permission to contact me by email regarding my enquiry<br>
-                <input type="hidden" name="_next" value="https://www.animalhousezoo.co.uk/ahz/form-thanks.html">
+                <input type="checkbox" value="check" id="tc-agree" /> I have read and agree to your <a class="modal-link" data-target="#myModal-TandC" data-toggle="modal">Terms and Conditions</a>
+		      <input type="hidden" name="_next" value="https://www.animalhousezoo.co.uk/ahz/form-thanks.html">
 	              <input type="hidden" name="_subject" value="Animal House Zoo Birthday Party Enquiry" />
 	              <input type="submit" value="Send">
               </div>
@@ -206,12 +203,7 @@
       </div>
     </div>
   </section>
-
-
-
-
-</div>
-</div>
+		
 </div>
 </section>
 
