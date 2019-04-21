@@ -34,8 +34,8 @@ p { font-family: "Poppins" !important; padding: 0; margin: 0 0 30px 0; }
 .btn-clear { font-family: "Poppins", sans-serif; text-transform: uppercase; font-weight: 500; font-size: 16px; letter-spacing: 1px; display: inline-block; padding: 8px 28px; transition: 0.5s; margin: 10px; border: 2px solid #ffc21c; color: #ffc21c !important; }
 .btn-clear:hover { background: #ffc21c; border: 2px solid #ffc21c; color:#ffffff !important; text-decoration:none; }
 .btn-clear:active, .btn-clear:focus { color: #ffffff; }
-#contact [type="submit"], input.wpcf7-submit {font-family: "Poppins", sans-serif; text-transform: uppercase; font-weight: 500; letter-spacing: 1px; display: inline-block; padding: 8px 30px; border-radius: 4px !important; transition: 0.5s; margin: 10px; border: 2px solid #fff !important; background: #33bc85 ; color: #ffffff !important; }
-#contact [type="submit"]:hover, input.wpcf7-submit:hover  {background: #268d64; border: 2px solid #33bc85 !important; }
+#contact [type="submit"], input.wpcf7-submit {font-family: "Poppins", sans-serif; text-transform: uppercase; font-weight: 500; letter-spacing: 1px; display: inline-block; padding: 8px 30px; transition: 0.5s; margin: 10px; border: 2px solid #ffc21c !important; background: #ffc21c; color: #ffffff !important; }
+#contact [type="submit"]:hover, input.wpcf7-submit:hover  {background: #ffaf06; border: 2px solid #ffc21c !important; }
 
 
 /* links */
