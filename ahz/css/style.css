@@ -29,10 +29,10 @@ h1, h2, h3, h4, h5, h6 {font-family: "Poppins", sans-serif; color:#000000; font-
 p { font-family: "Poppins" !important; padding: 0; margin: 0 0 30px 0; }
 
 /* buttons */
-.btn-full { font-family: "Poppins", sans-serif; text-transform: uppercase; font-weight: 500; font-size: 14px; letter-spacing: 1px; display: inline-block; padding: 8px 30px; border-radius: 4px; transition: 0.5s; margin: 10px; border: 2px solid #fff; background: #33bc85; color: #ffffff !important; }
-.btn-full:hover { background: #268d64; border: 2px solid #33bc85; }
-.btn-clear { font-family: "Poppins", sans-serif; text-transform: uppercase; font-weight: 500; font-size: 16px; letter-spacing: 1px; display: inline-block; padding: 8px 28px; border-radius: 50px; transition: 0.5s; margin: 10px; border: 2px solid #fff; color: #fff; }
-.btn-clear:hover { background: #2dc997; border: 2px solid #2dc997; color:#ffffff; text-decoration:none; }
+.btn-full { font-family: "Poppins", sans-serif; text-transform: uppercase; font-weight: 500; font-size: 14px; letter-spacing: 1px; display: inline-block; padding: 8px 30px; transition: 0.5s; margin: 10px; background: #ffc21c; border: 2px solid #ffc21c; color: #ffffff !important; }
+.btn-full:hover { background: #ffaf06; border: 2px solid #ffc21c; }
+.btn-clear { font-family: "Poppins", sans-serif; text-transform: uppercase; font-weight: 500; font-size: 16px; letter-spacing: 1px; display: inline-block; padding: 8px 28px; transition: 0.5s; margin: 10px; border: 2px solid #ffc21c; color: #ffc21c !important; }
+.btn-clear:hover { background: #ffc21c; border: 2px solid #ffc21c; color:#ffffff !important; text-decoration:none; }
 .btn-clear:active, .btn-clear:focus { color: #ffffff; }
 #contact [type="submit"], input.wpcf7-submit {font-family: "Poppins", sans-serif; text-transform: uppercase; font-weight: 500; letter-spacing: 1px; display: inline-block; padding: 8px 30px; border-radius: 4px !important; transition: 0.5s; margin: 10px; border: 2px solid #fff !important; background: #33bc85 ; color: #ffffff !important; }
 #contact [type="submit"]:hover, input.wpcf7-submit:hover  {background: #268d64; border: 2px solid #33bc85 !important; }
